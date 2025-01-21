@@ -1,5 +1,32 @@
 [
     {
+        "nombre_logia": "Protectora de las Virtudes",
+        "numero": 1,
+        "oriente": "Barcelona",
+        "estado": "Anzoategui",
+        "fecha_fundacion": "1810-06-24",
+        "fecha_instalacion": "1812-07-01",
+        "contador": 1
+      }
+      {
+        "nombre_logia": "Perfecta Aarmonia",
+        "numero": 2,
+        "oriente": "Cumana",
+        "estado": "Sucre",
+        "fecha_fundacion": "1810-11-04",
+        "fecha_instalacion": "1810-11-04",
+        "contador": 2
+      }
+      {
+        "nombre_logia": "Unanimidad",
+        "numero": 3,
+        "oriente": "La Guaira",
+        "estado": "La Guaira",
+        "fecha_fundacion": "1823-04-13",
+        "fecha_instalacion": "2023-05-12",
+        "contador": 3
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -7,8 +34,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -16,8 +43,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -25,8 +52,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -34,8 +61,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -43,8 +70,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -52,8 +79,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -61,8 +88,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -70,8 +97,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -79,8 +106,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -88,9 +115,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -98,8 +124,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -107,8 +133,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -116,8 +142,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -125,8 +151,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -134,8 +160,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -143,8 +169,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -152,8 +178,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -161,8 +187,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -170,8 +196,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -179,9 +205,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -189,8 +214,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -198,8 +223,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -207,8 +232,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -216,8 +241,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -225,8 +250,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -234,8 +259,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -243,8 +268,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+      }
+      {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -252,8 +277,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -261,8 +286,8 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    {
+       }
+       {
         "nombre_logia": "",
         "numero": ,
         "oriente": "",
@@ -270,1380 +295,4 @@
         "fecha_fundacion": "",
         "fecha_instalacion": "",
         "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-    {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
-      },
-       
-]
+      }    
