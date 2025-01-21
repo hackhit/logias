@@ -35,18 +35,22 @@ El archivo `logias.json` incluye los siguientes campos clave:
 | `contador`           | Integer    | Número total de Logias en Venezuela                                                 |
 
 ### Ejemplo de un Registro
-```json
-{
-    "nombre_logia": "Protectora de las Virtudes",
-    "numero": 1,
-    "oriente": "Barcelona",
-    "estado": "Anzoategui",
-    "fecha_fundacion": "1810-06-24",
-    "fecha_instalacion": "1812-07-01",
-    "contador": 1
-}
 
 
+    
+   ```json
+ {
+        "nombre_logia": "Protectora de las Virtudes",
+        "numero": 1,
+        "oriente": "Barcelona",
+        "estado": "Anzoategui",
+        "fecha_fundacion": "1810-06-24",
+        "fecha_instalacion": "1812-07-01",
+        "contador": 1
+    }
+```
+
+---
 ### Usos del Proyecto
 
 Este repositorio es de utilidad para:
