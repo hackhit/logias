@@ -1,545 +1,1649 @@
 [
     {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "PROTECTORA DE LAS VIRTUDES;1;BARCELONA;ANZOÁTEGUI;1810-06-24;1812-07-01;1"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "PERFECTA ARMONÍA;2;CUMANÁ;SUCRE;1810-11-04;1810-11-04;2"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "FRATERNIDAD;4;CARACAS;DTO. FEDERAL;1823-04-13;2023-05-12;3"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LA UNIÓN;5;CARACAS;DTO. FEDERAL;1823-06-24;;4"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "REGENERADORES;6;MARACAIBO;ZULIA;1812-06-24;1812-06-24;5"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESPERANZA;7;CARACAS;DTO. FEDERAL;1853-12-23;1853-12-23;6"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "FENIX;8;VALENCIA;CARABOBO;1957-10-12;2023-12-04;7"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "VICTORIA;9;LA VICTORIA;ARAGUA;1854-04-15;1854-04-15;8"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ASILO DE LA PAZ;13;CIUDAD BOLÍVAR;BOLÍVAR;1853-07-12;1854-10-26;9"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "PORVENIR;18;CARACAS;DTO. FEDERAL;1856-01-02;1856-01-02;10"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LEALTAD;19;CARACAS;DTO. FEDERAL;1854-06-24;1854-06-24;11"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DEL GUARICO;20;CALABOZO;GUARICO;1872-02-02;1875-02-02;12"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "VIRTUD Y ORDEN;22;CARUPANO;SUCRE;1814-12-02;1814-12-02;13"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "BELLA ALTAGRACIA;24;CUMANA;SUCRE;1855-07-07;1855-09-09;14"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CANDOR;27;S. F. DE APURE;APURE;1866-01-10;;15"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "PEDRO COVA;28;UPATA;BOLÍVAR;1885-09-29;1885-09-29;16"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ANDRES BELLO;33;CARACAS;DTO. FEDERAL;1943-11-29;1943-11-29;17"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CONCORDIA;36;GUANARE;PORTUGUESA;;1938-10-11;18"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE AMERICA;37;CARACAS;DTO. FEDERAL;1882-08-20;1882-08-20;19"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ DE UNARE;38;ZARAZA;GUARICO;1852-10-14;1852-10-14;20"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DE GUANIPA;41;EL TIGRE;ANZOÁTEGUI;1941-07-28;1941-11-15;21"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ DEL CARIBE;44;PTO. LA CRUZ;ANZOÁTEGUI;1944-10-20;;22"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DEL ÁVILA;50;CARACAS;DTO. FEDERAL;;1886-02-04;23"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "AURORA DEL YURUARI;53;SAN FELIX;BOLÍVAR;2001-08-11;2001-08-11;24"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DE LAS PAMPAS;54;EL SOCORRO;GUARICO;1893-03-05;1893-05-01;25"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "AURORA DE LA PAZ;55;TUCUPIDO;GUARICO;1892-08-30;1892-08-30;26"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DIOS Y PATRIA;67;TUMEREMO;BOLÍVAR;1917-08-28;1917-08-28;27"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL NACIENTE;71;TUCACAS;FALCÓN;1919-01-01;1919-11-01;28"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RENOVACIÓN;72;CARACAS;DTO. FEDERAL;1938-06-25;1938-06-25;29"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "FRANCISCO DE MIRANDA;73;TUCUPITA;DELTA AMACURO;1925-01-02;;30"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DALLA COSTA;75;EL CALLAO;BOLÍVAR;1925-10-31;1925-12-20;31"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SIMÓN BOLÍVAR;76;PÍRITU;ANZOÁTEGUI;1926-05-31;;32"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SINAI;78;ALT. ORITUCO;GUARICO;1926-09-27;2023-12-10;33"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JUAN BAUTISTA ARISMENDI;79;JUAN GRIEGO;NUEVA ESPARTA;1927-01-18;;34"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ DE LA FRATERNIDAD;81;MATURÍN;MONAGAS;1928-04-10;;35"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RICAURTE;82;CABIMAS;ZULIA;1929-04-22;1929-04-22;36"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ Y ARMONÍA;83;SAN JOSÉ DE GUARIBE;GUARICO;1930-01-20;1930-01-20;37"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE NUEVA ESPARTA;84;PORLAMAR;NUEVA ESPARTA;1896-09-28;;38"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DEL TÁCHIRA;85;SAN CRISTOBAL;TACHIRA;1928-06-01;1930-09-23;39"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LIBERTADOR;89;V. DE LA PASCUA;GUARICO;1930-12-22;1931-04-19;40"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "BOLÍVAR Y MORILLO;91;VALERA;TRUJILLO;1933-06-04;1933-06-08;41"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ Y PROGRESO;94;CARIPE;MONAGAS;1934-04-27;1934-04-27;42"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "AMANTES DE LA CARIDAD;95;PUERTO CABELLO;CARABOBO;;;43"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE ARAGUA;96;MARACAY;ARAGUA;1937-10-31;1938-03-20;44"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "GEORGE WASHINGTON;100;CARACAS;DTO. FEDERAL;1946-09-30;1946-10-13;45"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LIBERTAD ESPAÑOLA;101;CARACAS;DTO. FEDERAL;1947-04-18;1947-04-18;46"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "HIRAM;102;ARUBA;ARUBA;1947-08-27;1947-08-27;47"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "FALCON;104;PUNTO FIJO;FALCÓN;1948-03-15;;48"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ANTONIO JOSE DE SUCRE;105;QUIRIQUIRE;MONAGAS;1948-05-23;;49"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ASILO LLANERO;106;LAS MERCEDES;GUARICO;1948-10-12;;50"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DE SAN JUAN;107;S. JUAN DE LOS M.;GUARICO;;1948-10-09;51"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ARMONÍA;110;PUNTA DE MATA;MONAGAS;1948-10-31;;52"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "OASIS DE LA PAZ;111;BARINAS;BARINAS;1948-09-16;;53"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SÍMBOLO;113;CARACAS;DTO. FEDERAL;1948-01-18;1948-01-18;54"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "GANDHI;114;CARACAS;DTO. FEDERAL;1949-03-21;1949-04-05;55"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "TEOFILO LEAL;115;BARQUISIMETO;LARA;1949-02-21;1949-04-16;56"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "BUENA VISTA;116;MARACAIBO;ZULIA;1949-05-03;1949-05-03;57"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE ANZOÁTEGUI;117;CANTAURA;ANZOÁTEGUI;1949-04-19;1949-04-19;58"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA BOLÍVAR;118;CARACAS;DTO. FEDERAL;1949-07-24;1949-07-29;59"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DE MOLAY;119;CARACAS;DTO. FEDERAL;1949-06-07;1949-06-07;60"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "GENERAL RAFAEL URDANETA;126;MARACAIBO;ZULIA;1951-04-19;1951-04-19;61"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DE ARAGUA;127;CAGUA;ARAGUA;1951-06-03;;62"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE IMATACA;128;EL PALMAR;BOLÍVAR;1951-06-04;1951-06-04;63"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA GUZMÁN BLANCO;130;EL DORADO;BOLÍVAR;;;64"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ DE MIRANDA;131;PARIAGUAN;ANZOÁTEGUI;1952-05-10;;65"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "HUMBOLDT;141;CARACAS;DTO. FEDERAL;;;66"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "GIORDANO BRUNO;142;CARACAS;DTO. FEDERAL;1955-01-24;1955-01-24;67"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "IGUALDAD;145;CARACAS;DTO. FEDERAL;1955-07-31;2023-12-06;68"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JESÚS ENRIQUE LOSSADA;146;CIUDAD OJEDA;ZULIA;1956-07-05;;69"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JOSÉ CORTES MADARIAGA;147;ANACO;ANZOÁTEGUI;1955-12-12;1955-12-12;70"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "GRAL. JOSÉ FÉLIX RIBAS;148;OCUMARE DEL TUY;MIRANDA;1956-09-09;1956-12-01;71"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ILUSTRE AMERICANO;150;CARACAS;DTO. FEDERAL;1956-08-18;1956-08-18;72"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "MORAL Y LUCES;155;GUARENAS;MIRANDA;1957-05-25;1957-05-25;73"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LA FAYETTE;157;CARACAS;DTO. FEDERAL;1959-08-22;1959-08-22;74"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LIBERTAD Y DERECHO;158;BARQUISIMETO;LARA;1956-07-05;1959-08-22;75"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ DEL AMAZONAS;159;PTO. AYACUHO;AMAZONA;1961-01-23;1961-06-25;76"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "PERSEVERANCIA;160;TEMBLADOR;MONAGAS;1963-02-10;1963-02-10;77"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ DEL ORINOCO;161;CAICARA DEL ORINOCO;BOLÍVAR;;;78"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DERECHOS HUMANOS;162;MÉRIDA;MÉRIDA;1963-10-19;1963-10-19;79"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "URANIA;163;VALENCIA;CARABOBO;1964-09-13;2022-12-06;80"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "MANUEL PIAR;164;CIUDAD PIAR;BOLÍVAR;;;81"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DEL SUR;165;BARRANCAS;MONAGAS;;;82"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "PIO GIL;166;SAN CRISTOBAL;TACHIRA;1966-03-26;;83"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DOMINGO F. SARMIENTO;167;CIUDAD GUAYANA;BOLÍVAR;1966-06-05;1966-08-27;84"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "BUENAVENTURA BRICEÑO;168;CARACAS;DTO. FEDERAL;1969-08-23;;85"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "TEMPLO DE SALOMÓN;172;CARACAS;DTO. FEDERAL;1966-10-01;1966-10-01;86"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DIEGO BAUTISTA URBANEJA;173;CARACAS;DTO. FEDERAL;1967-01-17;;87"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "HANS HAUSCHILDT;175;PUERTO ORDAZ;BOLÍVAR;1969-06-14;1969-06-14;88"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE YARACUY;176;SAN FELIPE;YARACUY;1970-02-17;1970-03-14;89"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JUAN MANUEL CAGIGAL;177;BARCELONA;ANZOÁTEGUI;1971-03-21;1971-07-19;90"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LIBERTAD;179;CARACAS;DTO. FEDERAL;1972-06-10;1972-06-10;91"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CORAZONES UNIDOS;183;PAMPATAR;NUEVA ESPARTA;1977-10-29;1977-10-29;92"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RESTAURADORES DEL  HONOR;184;SAN CRISTOBAL;TACHIRA;1979-08-11;1979-08-11;93"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DE UNARE;185;CLARINES;ANZOÁTEGUI;;;94"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DE RORAIMA;188;S. ELENA DE ;BOLÍVAR;1982-12-04;1982-12-04;95"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RENATO FLORES PUERTA;191;CUNAVICHE;APURE;;;96"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SIMÓN RODRÍGUEZ;194;CARACAS;DTO. FEDERAL;1984-04-07;2023-12-09;97"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE CARACAS;195;CARACAS;DTO. FEDERAL;1978-10-11;1984-05-31;98"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LAUTARO;197;CARACAS;DTO. FEDERAL;1985-04-13;1985-04-13;99"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "MANUEL MANRIQUE;198;SAN CARLOS;COJEDES;1985-06-24;1985-10-26;100"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE ACHAGUAS;199;ACHAGUAS;APURE;2023-03-22;1986-03-22;101"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "Tradición y Progreso;200;VALLE DEL ESPÍRITU SANTO;NUEVA ESPARTA;1986-06-10;1986-06-19;102"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUX ET ACTIO;201;VALENCIA;CARABOBO;;;103"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DR. CESAR OBDULIO IRIARTE;202;PUERTO ORDAZ;BOLÍVAR;1986-11-28;1987-08-08;104"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE MIRANDA;204;LOS TEQUES;MIRANDA;1987-08-01;1987-08-01;105"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ZAMOLXIS;205;CARACAS;DTO. FEDERAL;1988-05-28;1988-05-28;106"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DIEGO IBARRA;207;MARIARA;CARABOBO;1989-09-29;1989-12-09;107"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SANTIAGO MARIÑO;208;CARACAS;DTO. FEDERAL;1990-01-18;1990-01-18;108"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SALMO 133;209;PUERTO ORDAZ;BOLÍVAR;1988-09-17;1990-06-27;109"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "OPERATIVA;210;SAN ANTONIO DE LOS ALTOS;MIRANDA;1992-03-07;1992-03-07;110"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "VALLE DE LOS LIRIOS;213;V. DE LA PASCUA;GUARICO;;2023-12-06;111"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE LOS LLANOS;214;S. JUAN DE LOS M.;GUARICO;;1948-10-09;112"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SIRIUS;215;CARACAS;DTO. FEDERAL;1991-09-13;1991-09-13;113"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DEL GUARICO;216;ZARAZA;GUARICO;1992-01-23;1992-06-24;114"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "FELIZ RAMÓN MACHADO;217;URACOA;MONAGAS;;;115"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE GUAYANA;218;CIUDAD BOLÍVAR;BOLÍVAR;1993-07-12;1993-08-09;116"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JUAN FRANCISCO GIRON;219;UPATA;BOLÍVAR;1993-07-30;;117"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JESUS VALENTINO LATAN LA ROSA;220;PUERTO ORDAZ;BOLÍVAR;2005-10-28;2006-05-19;118"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CARLOS RODRIGUEZ JIMENEZ;221;CIUDAD BOLÍVAR;BOLÍVAR;1994-04-19;1994-08-26;119"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RENACIMIENTO;222;BARQUISIMETO;LARA;1985-06-02;1985-06-24;120"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ Y REFLEXIÓN;223;PUERTO ORDAZ;BOLÍVAR;1989-10-12;2000-02-13;121"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CONGRESO DE ANGOSTURA;224;CIUDAD BOLÍVAR;BOLÍVAR;1999-06-08;2000-02-12;122"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "UNIDAD Y ARMONÍA;225;MATURÍN;MONAGAS;2000-07-25;;123"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JUAN CRISOSTOMO FALCÓN;226;MIRIMIRE;FALCÓN;2001-12-01;2001-12-01;124"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CORREO DEL ORINOCO;227;CIUDAD BOLÍVAR;BOLÍVAR;2000-07-20;2000-12-15;125"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "BOLÍVAR Y SUCRE;228;SAN FELIX;BOLÍVAR;2002-04-13;2002-04-13;126"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUZ DE LOS ANDES;229;VALERA;TRUJILLO;;;127"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LANCEROS DE PÁEZ;230;BARCELONA;ANZOÁTEGUI;2000-07-22;2000-07-22;128"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JUSTICIA Y LUZ;231;CIUDAD BOLÍVAR;BOLÍVAR;2001-10-07;2002-01-01;129"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTRELLA DEL SUPAMO;232;EL MANTECO;BOLÍVAR;2002-08-17;2002-08-17;130"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESPERANZA 7 DEL ESTE;233;CARACAS;DTO. FEDERAL;1988-10-28;;131"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DR. EDITO ACEVEDO;235;MATURÍN;MONAGAS;2006-02-11;2007-02-11;132"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CORONEL JULIÁN MELLADO;236;EL SOMBRERO;GUARICO;1985-09-15;;133"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "DEBERES HUMANOS;237;MÉRIDA;MÉRIDA;2009-01-26;2010-01-26;134"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "TEMPLO PITAGÓRICO;238;V. DE LA PASCUA;GUARICO;2005-01-15;2007-07-06;135"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "FRANCISCO PEREIRO LIZ;239;MATURÍN;MONAGAS;2009-08-15;2009-11-21;136"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ACACIA;240;VALENCIA;CARABOBO;;;137"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RAFAEL CALABRESSE;241;CIUDAD BOLÍVAR;ANZOÁTEGUI;2006-11-26;2010-08-15;138"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "\"SIMÓN BOLÍVAR \"\"LIBERTADOR\"\"\";242;MARACAIBO;ZULIA;2010-10-03;2010-10-03;139"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "GUAL Y ESPAÑA;243;LA GUAIRA;VARGAS;2010-10-08;2010-10-16;140"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LEONARDO DA VINCI;244;MARACAY;ARAGUA;2011-02-23;2011-11-02;141"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "PEDRO A BARBOZA DE LA TORRE;245;MARACAIBO;ZULIA;;;142"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "BÓVEDAS DE HENOCH;246;CARACAS;DTO. FEDERAL;2013-09-21;2013-09-21;143"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "MIGUEL ÁNGEL ORTEGA;247;VALENCIA;CARABOBO;2013-03-19;2013-03-19;144"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE CABRUTAS;248;CABRUTAS;GUARICO;;;145"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SERGIO GONZÁLEZ ;249;MATURÍN;MONAGAS;2013-07-18;2014-11-23;146"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RAVEST RAFAEL MARÍA BARALT;250;CABIMAS;ZULIA;2014-10-11;;147"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "HUMBERTO CAMEJO ARIAS;251;CIUDAD BOLÍVAR;BOLÍVAR;;;148"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "STEFANO PICCOLO;252;CAGUA;ARAGUA;;;149"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "KARIÑA;253;EL TIGRE;ANZOÁTEGUI;2014-12-04;2015-08-27;150"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "FEDERICO II;254;MARACAY;ARAGUA;1996-07-24;;151"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUIS RAMÓN ROMERO CARREÑO;255;TUCUPITA;DELTA AMACURO;2016-01-09;2016-12-04;152"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "KRESTOS SOPHIA;256;SAN CRISTOBAL;TACHIRA;2009-05-30;2009-10-17;153"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "MIGUEL TEJEDA;257;LA ASUNCIÓN;NUEVA ESPARTA;2017-07-08;2017-07-15;154"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "VICENTE EMILIO SOJO;258;GUATIRE;MIRANDA;2017-07-08;2017-07-14;155"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SAMUEL ROBINSON;259;SAN J. DE GUANIPA;ANZOÁTEGUI;2013-05-15;2023-07-21;156"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CONCIENCIA UNIVERSAL;260;LECHERÍA;ANZOÁTEGUI;2017-08-21;2017-11-04;157"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RESTAURADORES DEL HONOR XXII;261;SAN FELIX;BOLÍVAR;2013-02-24;2013-08-24;158"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ESTUDIOS TRADICIONALES;262;PUERTO ORDAZ;BOLÍVAR;2018-01-22;2018-10-28;159"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "NICOLAS CHIOTAKIS;263;ARAURE;PORTUGUESA;2018-11-15;2019-05-09;160"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JOSÉ ANTONIO HERNANDEZ ANTILLANO;264;SAN DIEGO;CARABOBO;2019-05-16;2019-05-16;161"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "JOSÉ ANTONIO PÁEZ;265;SAN CRISTOBAL;TACHIRA;2019-05-25;2019-05-25;162"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LA GRAN FAMILIA;266;CARACAS;DTO. FEDERAL;;;163"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "PEDRO ANTONIO OLIVIERI GRILLASCA;267;TUMEREMO;BOLÍVAR;2019-10-12;2019-10-25;164"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SAN JUAN DE LAS MARGARITAS;268;LA ASUNCIÓN;NUEVA ESPARTA;;;165"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CABALLEROS DEL SOL DE CARABOBO;269;VALENCIA;CARABOBO;2022-04-23;0001-01-01;166"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CARLOS DANIEL FERNÁNDEZ;270;CASACOIMA;DELTA AMACURO;;2024-01-19;167"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "GRAN CADENA UNIVERSAL;271;SAN FELIX;BOLÍVAR;2021-12-22;2022-12-02;168"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "VALLE DE ARMONÍA;272;VALLE GUANAPE;ANZOÁTEGUI;;;169"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "WINSTON CHURCHILL;273;S. JUAN DE LOS M.;GUARICO;2019-03-28;2023-11-23;170"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "NICOLA TESLA;274;CARACAS;DTO. FEDERAL;;;171"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LINO LUGO MARÍN;275;PEDREGALES;NUEVA ESPARTA;;;172"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "ALQUIMISTAS DEL ESPÍRITU;276;CARACAS;DTO. FEDERAL;2023-11-23;2023-11-23;173"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "VIRTUD Y VICTORIA;277;SANTA ANA DE CORO;FALCÓN;2023-03-22;;174"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "CARLOS FUNG DÍAZ;278;VALENCIA;CARABOBO;2023-08-29;2023-11-17;175"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "LUIS VAZ DE CAMOES;279;ANACO;ANZOÁTEGUI;;2014-08-26;176"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "GUILLERMO ENRIQUE FREITES;280;BARCELONA;ANZOÁTEGUI;;;177"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "UNIÓN FRATERNAL;281;GUASIPATI;BOLÍVAR;;;178"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "SOL DE OCCIDENTE;283;SAN CRISTOBAL;TACHIRA;2010-06-21;2024-02-27;179"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "RENACER;292;SAN ANTONIO;TACHIRA;2017-02-17;2017-02-27;180"
-    },
-    {
-        "Nombre de Logia;Numero;Oriente;Estado;Fundada;Instalada;CANTIDAD DE LOGIAS": "MIRANDA REGRESA;300;CARACAS;DTO. FEDERAL;;;181"
-    }
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+    {
+        "nombre_logia": "",
+        "numero": ,
+        "oriente": "",
+        "estado": "",
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "contador": 
+      },
+       
 ]
