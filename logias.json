@@ -300,64 +300,244 @@
         "nombre_logia": "Juan Bautista Arismendi",
         "numero": 79,
         "oriente": "Juan Griego",
-        "estado": "Nuevo Esparta",
+        "estado": "Nueva Esparta",
         "fecha_fundacion": "1927-01-18",
         "fecha_instalacion": "1927-01-18",
         "contador": 34
       },
       {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
+          "nombre_logia": "Luz de la Fraternidad",
+          "numero": 81,
+          "oriente": "Maturin",
+          "estado": "Monagas",
+          "fecha_fundacion": "1928-04-10",
+          "fecha_instalacion": "1928-04-10",
           "contador": 35      
       },
       {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
+        "nombre_logia": "Ricaute",
+        "numero": 82,
+        "oriente": "Cabimas",
+        "estado": "Zulia",
+        "fecha_fundacion": "1929-04-22",
+        "fecha_instalacion": "1929-04-22",
         "contador": 36
       },
       {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
+          "nombre_logia": "Luz y Armonia",
+          "numero": 83,
+          "oriente": "Sam Jose de Guaribe",
+          "estado": "Guarico",
+          "fecha_fundacion": "1930-01-20",
+          "fecha_instalacion": "1930-01-20",
           "contador": 37      
       },
       {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
+        "nombre_logia": "Sol de Nueva Esparta",
+        "numero": 84,
+        "oriente": "Porlamar",
+        "estado": "Nueva Esparta",
+        "fecha_fundacion": "1896-09-28",
+        "fecha_instalacion": "1896-09-28",
         "contador": 38
       },
       {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
+          "nombre_logia": "Sol del Tachira",
+          "numero": 85,
+          "oriente": "San Cristobal",
+          "estado": "Tachira",
+          "fecha_fundacion": "1928-06-01",
+          "fecha_instalacion": "1930-09-23",
           "contador": 39      
       },
       {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 
+        "nombre_logia": "Libertador",
+        "numero": 89,
+        "oriente": "Valle de la Pascua",
+        "estado": "Guarico",
+        "fecha_fundacion": "1930-12-22",
+        "fecha_instalacion": "1931-04-19",
+        "contador": 40
+      },
+      {
+          "nombre_logia": "Bolivar y Morillo",
+          "numero": 91,
+          "oriente": "Valera",
+          "estado": "Trujillo",
+          "fecha_fundacion": "1933-06-04",
+          "fecha_instalacion": "1933-06-08",
+          "contador": 41      
+      },
+      {
+        "nombre_logia": "Luz y Progreso",
+        "numero": 94,
+        "oriente": "Caripe",
+        "estado": "Monagas",
+        "fecha_fundacion": "1934-04-27",
+        "fecha_instalacion": "1934-04-27",
+        "contador": 42
+      },
+      {
+          "nombre_logia": "Amantes de la Caridad",
+          "numero": 95,
+          "oriente": "Puerto Cabello",
+          "estado": "Carabobo",
+          "fecha_fundacion": "2024-01-01",
+          "fecha_instalacion": "2024-01-01",
+          "contador": 43      
+      },
+      {
+        "nombre_logia": "Sol de Aragua",
+        "numero": 96,
+        "oriente": "Maracay",
+        "estado": "Aragua",
+        "fecha_fundacion": "1937-10-31",
+        "fecha_instalacion": "1938-03-20",
+        "contador": 44
+      },
+      {
+          "nombre_logia": "George Washington",
+          "numero": 100,
+          "oriente": "Caracas",
+          "estado": "Distrito Metropolitano",
+          "fecha_fundacion": "1946-09-30",
+          "fecha_instalacion": "1946-10-13",
+          "contador": 45      
+      },
+      {
+        "nombre_logia": "Libertad Española",
+        "numero": 101,
+        "oriente": "Caracas",
+        "estado": "Distrito Metropolitano",
+        "fecha_fundacion": "1947-04-18",
+        "fecha_instalacion": "1947-04-18",
+        "contador": 46
+      },
+      {
+          "nombre_logia": "Hiram",
+          "numero": 102,
+          "oriente": "Aruba",
+          "estado": "Aruba",
+          "fecha_fundacion": "1947-08-27",
+          "fecha_instalacion": "1947-08-27",
+          "contador": 47      
+      },
+      {
+        "nombre_logia": "Falcon",
+        "numero": 104,
+        "oriente": "Punto Fijo",
+        "estado": "Falcon",
+        "fecha_fundacion": "1948-03-15",
+        "fecha_instalacion": "1948-03-15",
+        "contador": 48
+      },
+      {
+          "nombre_logia": "Antonio Jose de Sucre",
+          "numero": 105,
+          "oriente": "Quiriquire",
+          "estado": "Monagas",
+          "fecha_fundacion": "1948-05-23",
+          "fecha_instalacion": "1948-05-23",
+          "contador": 49      
+      },
+      {
+        "nombre_logia": "Asilo Llanero",
+        "numero": 106,
+        "oriente": "Las Mercedes del Llano",
+        "estado": "Guarico",
+        "fecha_fundacion": "1948-10-12",
+        "fecha_instalacion": "1948-10-12",
+        "contador": 50
+      },
+      {
+          "nombre_logia": "Estrella de San Juan",
+          "numero": 107,
+          "oriente": "San Juan de los Morros",
+          "estado": "Guarico",
+          "fecha_fundacion": "1948-10-09",
+          "fecha_instalacion": "1948-10-09",
+          "contador": 51      
+      },
+      {
+        "nombre_logia": "Armonia",
+        "numero": 110,
+        "oriente": "Punta de  Mata",
+        "estado": "Monagas",
+        "fecha_fundacion": "1948-10-31",
+        "fecha_instalacion": "1948-10-31",
+        "contador": 52
+      },
+      {
+          "nombre_logia": "Oasis de la Paz",
+          "numero": 111,
+          "oriente": "Barinas",
+          "estado": "Barinas",
+          "fecha_fundacion": "1948-09-16",
+          "fecha_instalacion": "1948-09-16",
+          "contador": 53      
+      },
+      {
+        "nombre_logia": "Simbolo",
+        "numero": 113,
+        "oriente": "Caracas",
+        "estado": "Distrito Metropolitano",
+        "fecha_fundacion": "1948-01-18",
+        "fecha_instalacion": "1948-01-18",
+        "contador": 54
+      },
+      {
+          "nombre_logia": "Gandhi",
+          "numero": 114,
+          "oriente": "Caracas",
+          "estado": "Distrito Metropolitano",
+          "fecha_fundacion": "1949-03-21",
+          "fecha_instalacion": "1949-04-05",
+          "contador": 55      
+      },
+      {
+        "nombre_logia": "Teofilo Leal",
+        "numero": 115,
+        "oriente": "Barquisimeto",
+        "estado": "Lara",
+        "fecha_fundacion": "1949-02-21",
+        "fecha_instalacion": "1949-04-16",
+        "contador": 56
+      },
+      {
+          "nombre_logia": "Buena Vista",
+          "numero": 116,
+          "oriente": "Maracaibo",
+          "estado": "Zulia",
+          "fecha_fundacion": "1949-05-03",
+          "fecha_instalacion": "1949-05-03",
+          "contador": 57      
+      },
+      {
+        "nombre_logia": "Sol de Anzoategui",
+        "numero": 117,
+        "oriente": "Cantaura",
+        "estado": "Anzoategui",
+        "fecha_fundacion": "1949-04-19",
+        "fecha_instalacion": "1949-04-19",
+        "contador": 58
+      },
+      {
+          "nombre_logia": "Estrella Bolivar",
+          "numero": 118,
+          "oriente": "Caracas",
+          "estado": "Distrito Metropolitano",
+          "fecha_fundacion": "1949-07-24",
+          "fecha_instalacion": "1949-07-29",
+          "contador": 59      
+      },
+      {
+        "nombre_logia": "De Molay",
+        "numero": 119,
+        "oriente": "Caracas",
+        "estado": "Distrito Metropolitano",
+        "fecha_fundacion": "1949-06-07",
+        "fecha_instalacion": "1949-06-07",
+        "contador": 60
       },
       {
           "nombre_logia": "",
@@ -366,187 +546,7 @@
           "estado": "",
           "fecha_fundacion": "",
           "fecha_instalacion": "",
-          "contador": 40      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 41
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 42      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 43
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 44      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 45
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 46      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 47
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 48      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 49
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 50      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 51
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 52      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 53
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 54      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 55
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 56      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 57
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 58      
-      },
-      {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 59
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
-          "contador": 60      
+          "contador": 61      
       },
       {
         "nombre_logia": "",
@@ -1527,7 +1527,7 @@
         "estado": "",
         "fecha_fundacion": "",
         "fecha_instalacion": "",
-        "contador": 169
+        "contador": 170
       },
       {
           "nombre_logia": "",
@@ -1536,7 +1536,7 @@
           "estado": "",
           "fecha_fundacion": "",
           "fecha_instalacion": "",
-          "contador": 170      
+          "contador": 171      
       },
       {
         "nombre_logia": "",
@@ -1545,7 +1545,7 @@
         "estado": "",
         "fecha_fundacion": "",
         "fecha_instalacion": "",
-        "contador": 171
+        "contador": 172
       },
       {
           "nombre_logia": "",
@@ -1554,78 +1554,69 @@
           "estado": "",
           "fecha_fundacion": "",
           "fecha_instalacion": "",
-          "contador": 172      
+          "contador": 173      
       },
       {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
-        "contador": 173
-      },
-      {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
+          "nombre_logia": "Virtud y Victoria",
+          "numero": 277,
+          "oriente": "Santa Ana de Coro",
+          "estado": "Falcon",
+          "fecha_fundacion": "2023-03-23",
+          "fecha_instalacion": "2025-03-23",
           "contador": 174      
       },
       {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
+        "nombre_logia": "Carlos Fung Diaz",
+        "numero": 278,
+        "oriente": "Valencia",
+        "estado": "Carabobo",
+        "fecha_fundacion": "2023-08-29",
+        "fecha_instalacion": "2023-11-17",
         "contador": 175
       },
       {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
+          "nombre_logia": "Luis Va de Camoes",
+          "numero": 279,
+          "oriente": "Anaco",
+          "estado": "Anzoategui",
+          "fecha_fundacion": "2014-08-26",
+          "fecha_instalacion": "2024-08-26",
           "contador": 176      
       },
       {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
+        "nombre_logia": "Guillermo Enriquez Freites",
+        "numero": 280,
+        "oriente": "Barcelona",
+        "estado": "Anzoategui",
+        "fecha_fundacion": "2024-01-01",
+        "fecha_instalacion": "2024-01-01",
         "contador": 177
       },
       {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
+          "nombre_logia": "Union Fraternal",
+          "numero": 281,
+          "oriente": "Guasipati",
+          "estado": "Bolivar",
+          "fecha_fundacion": "2024-01-01",
+          "fecha_instalacion": "2024-01-01",
           "contador": 178      
       },
       {
-        "nombre_logia": "",
-        "numero": ,
-        "oriente": "",
-        "estado": "",
-        "fecha_fundacion": "",
-        "fecha_instalacion": "",
+        "nombre_logia": "Sol de Occidente",
+        "numero": 283,
+        "oriente": "San Cristobal",
+        "estado": "Tachira",
+        "fecha_fundacion": "2010-06-21",
+        "fecha_instalacion": "2024-02-27",
         "contador": 179
       },
       {
-          "nombre_logia": "",
-          "numero": ,
-          "oriente": "",
-          "estado": "",
-          "fecha_fundacion": "",
-          "fecha_instalacion": "",
+          "nombre_logia": "Renacer",
+          "numero": 292,
+          "oriente": "San Antonio",
+          "estado": "Tachira",
+          "fecha_fundacion": "2017-02-17",
+          "fecha_instalacion": "2017-02-17",
           "contador": 180      
       },
       {
