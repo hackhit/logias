@@ -179,6 +179,24 @@ Si estás interesado en colaborar con este proyecto:
 
 [Repositorio Oficial en GitHub](https://github.com/hackhit/logias)
 
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+# Logias - Archivo Masónico Digital
+
+**Bienvenido al repositorio de conocimiento masónico más completo en español**
+
+## 🗃️ Estructura del Contenido
+| Sección       | Responsables      | Estado       |
+|---------------|-------------------|--------------|
+| Desarrollo    | @hackhit, @jppod    | ✅ Activo    |
+| Historia      | @hackhit, @jppod    | ✅ Activo    |
+| Simbolismo    | @hackhit, @jppod  | 🚧 En desarrollo |
+
+
+
 ## Código de Conducta
 Este proyecto sigue el [Código de Conducta](./CODE_OF_CONDUCT.md) para asegurar un ambiente positivo y respetuoso.
 
