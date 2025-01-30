@@ -4,7 +4,7 @@
 
 ## Reporte de Vulnerabilidades
 
-Si descubres alguna vulnerabilidad de seguridad, por favor, no la publiques públicamente. En su lugar, abre un **issue privado** o contacta a los mantenedores del proyecto en **contacto@logias.com**.
+Si descubres alguna vulnerabilidad de seguridad, por favor, no la publiques públicamente. En su lugar, abre un **issue privado** o contacta a los mantenedores del proyecto en **83knmujyb@mozmail.com**.
 
 ### Información que se debe incluir:
 
