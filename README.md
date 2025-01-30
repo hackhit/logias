@@ -184,9 +184,9 @@ Si estás interesado en colaborar con este proyecto:
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
-# Logias - Archivo Masónico Digital
+# Logias - Archivo desarrollo Digital
 
-**Bienvenido al repositorio de conocimiento masónico más completo en español**
+**Area de trabajo**
 
 ## 🗃️ Estructura del Contenido
 | Sección       | Responsables      | Estado       |
@@ -204,7 +204,7 @@ Este proyecto sigue el [Código de Conducta](./CODE_OF_CONDUCT.md) para asegurar
 
 ### Licencia  
 
-Este proyecto está licenciado bajo la [MIT License](LICENSE).  
+Este proyecto está licenciado bajo la [MIT License](./LICENSE.md).  
 Siéntete libre de usar, modificar y distribuir el contenido del repositorio respetando los términos de la licencia. ⚖️📝  
 
 ---
