@@ -1,0 +1,33 @@
+{
+  "gran_maestros": [
+    {
+      "id": "GM-001",
+      "nombre_completo": "Diego Baustista Urbaneja",
+      "fecha_nacimiento": "1775-03-15",
+      "fecha_fallecimiento": "1841-06-22",
+      "periodo_mandato": {
+        "inicio": "1824-01-01",
+        "fin": "1826-12-31"
+      },
+      "logia_afiliacion": {
+        "logia": "Protectora de las Virtudes",
+        "numero": 1,
+        "oriente": "Barcelona",
+        "estado": "ANZOÁTEGUI"
+      },
+      "documentos_oficiales": [
+        {
+          "tipo": "Decreto",
+          "referencia": "GM-001/1824",
+          "uri": "https://archivo.glrv.ve/gm001"
+        }
+      ],
+      "metadata": {
+        "actualizado_en": "2023-08-15T14:30:00Z",
+        "fuentes": ["Archivo Histórico de la GLRV, Vol. II"]
+      }
+    }
+  ],
+  "_version": "1.0.0",
+  "_fuente": "Gran Logia de la República de Venezuela"
+}
