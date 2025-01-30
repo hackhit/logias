@@ -1,4 +1,3 @@
-<meta name="keywords" content="masoneria, logias, simbolismo, rituales, filosofia, historia">
 # Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴
 
 ![Gran Logia de Venezuela](https://www.granlogiadevenezuela.com/master/masonic/assets/img/theme/logob_yellow.png)
