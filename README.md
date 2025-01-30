@@ -194,11 +194,11 @@ Para más información o consultas sobre el proyecto, por favor visita:
 [Gran Logia de Venezuela](https://www.granlogiadevenezuela.com/master/masonic/?utm_source=github&utm_medium=referral&utm_campaign=logias_repo) 🌐📬🙏 
 
 ---
-## Autor
+## Autores
 
 - [@hackhit](https://www.github.com/hackhit)
 
-- 
+- [@jppod](https://github.com/jppod)
 ---
 ## Escribeme
 
