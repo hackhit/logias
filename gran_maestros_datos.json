@@ -1,0 +1,41 @@
+{
+  "gran_maestros": [
+    {
+      "id": "identificador_unico",
+      "nombre_completo": "Nombre y Apellido",
+      "fecha_nacimiento": "AAAA-MM-DD",
+      "fecha_fallecimiento": "AAAA-MM-DD",
+      "periodo_mandato": {
+        "inicio": "AAAA-MM-DD",
+        "fin": "AAAA-MM-DD"
+      },
+      "resumen_biografico": "Texto breve en español con datos relevantes",
+      "logia_afiliacion": {
+        "logia": "Nombre de la Logia",
+        "numero": 0,
+        "oriente": "Ciudad",
+        "estado": "Estado (normalizado con acentos)"
+      },
+      "documentos_oficiales": [
+        {
+          "tipo": "Decreto / Discurso / Fotografía",
+          "referencia": "Código o título",
+          "uri": "URL o identificador de archivo"
+        }
+      ],
+      "honores": [
+        {
+          "titulo": "Nombre del reconocimiento",
+          "institucion": "Entidad que lo otorga",
+          "fecha": "AAAA-MM-DD"
+        }
+      ],
+      "metadata": {
+        "actualizado_en": "AAAA-MM-DDTHH:MM:SSZ",
+        "fuentes": ["Libro / Archivo histórico / Sitio web"]
+      }
+    }
+  ],
+  "_version": "1.0.0",
+  "_fuente": "Gran Logia de la República de Venezuela"
+}
