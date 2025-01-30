@@ -179,6 +179,9 @@ Si estás interesado en colaborar con este proyecto:
 
 [Repositorio Oficial en GitHub](https://github.com/hackhit/logias)
 
+## Código de Conducta
+Este proyecto sigue el [Código de Conducta](./CODE_OF_CONDUCT.md) para asegurar un ambiente positivo y respetuoso.
+
 ---
 
 ### Licencia  
