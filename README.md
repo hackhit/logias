@@ -2,7 +2,7 @@
 
 ![Gran Logia de Venezuela](https://www.granlogiadevenezuela.com/master/masonic/assets/img/theme/logob_yellow.png)
 
-Bienvenido al Repositorio de las **Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴**, un proyecto dedicado a documentar y compartir información de las Logias Regulares pertenecientes a la **Gran Logia de la República de Venezuela**. ✨✨✨
+Bienvenido al Repositorio de las **Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴**, y **Grandes Maestros de nuestra augusta orden**un proyecto dedicado a documentar y compartir información de las Logias Regulares pertenecientes a la **Gran Logia de la República de Venezuela**. ✨✨✨
 
 [Visita la página oficial de la Gran Logia de Venezuela](https://www.granlogiadevenezuela.com/master/masonic/?utm_source=github&utm_medium=referral&utm_campaign=logias_repo)
 
@@ -10,11 +10,11 @@ Bienvenido al Repositorio de las **Logias Regulares Afiliadas a la M∴R∴G∴L
 
 
 ## Descripción del Proyecto
-El proyecto tiene como objetivo recopilar, estructurar y mantener un archivo JSON con información esencial sobre las Logias Regulares de la Gran Logia de la Republica de Venezuela. Este archivo está diseñado para ser utilizado en proyectos de diversas índoles, incluyendo sistemas de gestión, aplicaciones educativas, plataformas web y más. 📜📊📁
+El proyecto tiene como objetivo recopilar, estructurar y mantener un archivo JSON con información esencial sobre las Logias Regulares de la Gran Logia de la Republica de Venezuela. Rescatar la memoria de esos hombre que lo dieron todo por la Masoneria Regular Venezolana Este archivo está diseñado para ser utilizado en proyectos de diversas índoles, incluyendo sistemas de gestión, aplicaciones educativas, plataformas web y más. 📜📊📁
 
 
-### Características del Archivo `logias.json`
-- Información actualizada sobre las logias.
+### Características de los Archivos JSON
+- Información actualizada sobre las logias y los Grandes Maestros.
 - Campos estandarizados y listos para integración en cualquier proyecto.
 - Compatible con sistemas y aplicaciones orientados a bases de datos o visualización interactiva.
 - Libre de uso bajo los términos de la licencia. 💡
@@ -49,6 +49,8 @@ El archivo `logias.json` incluye los siguientes campos clave:
         "contador": 1
     }
 ```
+
+
 
 ---
 ### Usos del Proyecto
