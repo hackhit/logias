@@ -21,6 +21,11 @@ El proyecto tiene como objetivo recopilar, estructurar y mantener un archivo JSO
 
 ---
 
+## 🛠 Habilidades
+Debes tener habilidades en: Javascript, HTML, CSS y todo lo que quieras hacer con estos datos, y donde los quieras utilizar.
+
+---
+
 ## Contenido de `logias.json`
 El archivo `logias.json` incluye los siguientes campos clave:
 
@@ -50,7 +55,104 @@ El archivo `logias.json` incluye los siguientes campos clave:
     }
 ```
 
+---
 
+## Uso de `logias.json` en Diferentes Tecnologías
+
+### En Vue.js
+```javascript
+fetch('/ruta/al/logias.json')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => console.error('Error cargando el JSON:', error));
+```
+---
+
+### React
+```javascript
+import { useEffect, useState } from 'react';
+
+function App() {
+  const [logias, setLogias] = useState([]);
+
+  useEffect(() => {
+    fetch('/ruta/al/logias.json')
+      .then(response => response.json())
+      .then(data => setLogias(data))
+      .catch(error => console.error('Error cargando el JSON:', error));
+  }, []);
+
+  return (
+    <div>
+      <h1>Logias</h1>
+      <ul>
+        {logias.map((logia, index) => (
+          <li key={index}>{logia.nombre_logia} - {logia.oriente}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default App;
+
+```
+---
+### HTML
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logias</title>
+</head>
+<body>
+    <h1>Lista de Logias</h1>
+    <ul id="lista-logias"></ul>
+
+    <script>
+        fetch('/ruta/al/logias.json')
+            .then(response => response.json())
+            .then(data => {
+                const lista = document.getElementById('lista-logias');
+                data.forEach(logia => {
+                    const item = document.createElement('li');
+                    item.textContent = `${logia.nombre_logia} - ${logia.oriente}`;
+                    lista.appendChild(item);
+                });
+            })
+            .catch(error => console.error('Error cargando el JSON:', error));
+    </script>
+</body>
+</html>
+```
+---
+## Uso del código Python (Flask)
+
+1.  **Requisitos:**
+
+    *   Asegúrate de tener Python 3 instalado en tu sistema.
+    *   Instala la biblioteca Flask: `pip install Flask`
+
+2.  **Ejecución:**
+
+    *   Guarda el código Python en un archivo llamado `app.py` (o cualquier nombre que desees).
+    *   Abre una terminal o línea de comandos y navega hasta el directorio donde guardaste el archivo.
+    *   Ejecuta la aplicación Flask: `python app.py`
+
+3.  **Acceso a la API:**
+
+    *   La API estará disponible en la dirección `http://127.0.0.1:5000/logias` (o la dirección que se muestre en la terminal al ejecutar la aplicación).
+    *   Puedes acceder a esta dirección desde un navegador web o utilizando herramientas como `curl` o Postman para obtener los datos en formato JSON.
+
+## Ejemplo de solicitud (usando `curl`)
+
+```bash
+curl [http://127.0.0.1:5000/logias](http://127.0.0.1:5000/logias)
+```
 
 ---
 ### Usos del Proyecto
@@ -89,5 +191,17 @@ Siéntete libre de usar, modificar y distribuir el contenido del repositorio res
 ### Contacto  
 
 Para más información o consultas sobre el proyecto, por favor visita:  
-[Gran Logia de Venezuela](https://www.granlogiadevenezuela.com/master/masonic/?utm_source=github&utm_medium=referral&utm_campaign=logias_repo) 🌐📬🙏  
+[Gran Logia de Venezuela](https://www.granlogiadevenezuela.com/master/masonic/?utm_source=github&utm_medium=referral&utm_campaign=logias_repo) 🌐📬🙏 
 
+---
+## Autor
+
+- [@hackhit](https://www.github.com/hackhit)
+
+- 
+---
+## Escribeme
+
+Si me quieres contactar no dudes en enviarme un correo a mi direccion 83knmujyb@mozmail.com, si requieres indicaciones para implementarlo tampoco dudes en escribirme, siempre podemos ayudarnos.
+
+---
