@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sistema de Zonas Gran Logia de Venezuela",
+  "description": "Modelo de gestión territorial para jurisdicciones masónicas",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["numero_zona", "nombre", "estados", "geolocalizacion"],
+    "properties": {
+      "numero_zona": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 100,
+        "description": "Identificador numérico único de la zona"
+      },
+      "nombre": {
+        "type": "string",
+        "pattern": "^[A-Z][a-z]+(\\s[A-Z][a-z]+)*$",
+        "maxLength": 50
+      },
+      "estados": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "Distrito Capital", 
+            "Miranda", 
+            "Zulia", 
+            "Carabobo",
+            "Bolívar",
+            "Anzoátegui",
+            "Táchira"
+          ]
+        }
+      },
+      "geolocalizacion": {
+        "type": "object",
+        "properties": {
+          "centro_geometrico": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            }
+          },
+          "radio_operacion": {
+            "type": "number",
+            "minimum": 1,
+            "unit": "kilómetros"
+          }
+        }
+      },
+      "metadata": {
+        "type": "object",
+        "properties": {
+          "logias_asignadas": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "ultima_actualizacion": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "relaciones": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "entidad_colaboradora": {
+              "type": "string",
+              "enum": ["GLRV"]
+            },
+            "tipo_acuerdo": {
+              "type": "string",
+              "enum": ["Investigacion", "Educativo", "Seguridad", "Tecnológico", "Beneficencia"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "numero_zona": 1,
+      "nombre": "Zona Capital",
+      "estados": ["Distrito Capital", "Miranda"],
+      "geolocalizacion": {
+        "centro_geometrico": [10.4806, -66.9036],
+        "radio_operacion": 50
+      },
+      "metadata": {
+        "logias_asignadas": 15,
+        "ultima_actualizacion": "2024-03-20T12:00:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "GLRV",
+          "tipo_acuerdo": "Tecnológico"
+        }
+      ]
+    },
+    {
+      "numero_zona": 2,
+      "nombre": "Zona Occidental",
+      "estados": ["Zulia", "Táchira"],
+      "geolocalizacion": {
+        "centro_geometrico": [9.8233, -70.5584],
+        "radio_operacion": 300
+      },
+      "metadata": {
+        "logias_asignadas": 8,
+        "ultima_actualizacion": "2024-03-19T15:30:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "GLRV",
+          "tipo_acuerdo": "Científico"
+        }
+      ]
+    }
+  ]
+}
