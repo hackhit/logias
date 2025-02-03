@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Logias Regulares ",
+  "description": "Sistema de gestión de logias con capacidades superiores y metadata avanzada",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "uuid",
+      "nombre_logia",
+      "numero",
+      "oriente",
+      "geolocalizacion",
+      "estado",
+      "fecha_fundacion",
+      "version"
+    ],
+    "properties": {
+      "uuid": {
+        "type": "string",
+        "format": "uuid",
+        "description": "Identificador único universal (ISO/IEC 9834-8)",
+        "example": "550e8400-e29b-41d4-a716-446655440000"
+      },
+      "nombre_logia": {
+        "type": "string",
+        "description": "Denominación oficial con nomenclatura",
+        "minLength": 5,
+        "maxLength": 150,
+        "pattern": "^[A-ZÁÉÍÓÚ][a-záéíóúüñ]+(\\s[A-ZÁÉÍÓÚ][a-záéíóúüñ]+)*$",
+        "example": "Gran Logia del Pacífico Sur"
+      },
+      "numero": {
+        "type": "integer",
+        "description": "Identificador numérico único (Patrón IEEE-1234)",
+        "minimum": 1,
+        "maximum": 999999,
+        "example": 2042
+      },
+      "oriente": {
+        "type": "string",
+        "description": "Jurisdicción geopolítica oficial",
+        "enum": ["Norte", "Sur", "Este", "Oeste", "Centro"],
+        "example": "Sur"
+      },
+      "geolocalizacion": {
+        "type": "object",
+        "description": "Coordenadas geográficas (formato GeoJSON RFC 7946)",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["Point"]
+          },
+          "coordinates": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            },
+            "example": [-70.64827, -33.45694]
+          }
+        },
+        "required": ["type", "coordinates"]
+      },
+      "estado": {
+        "type": "string",
+        "description": "Estado operacional (ISO 55000)",
+        "enum": ["Activo", "Inactivo", "En Revisión", "Certificado", "En Cuarentena"],
+        "example": "Certificado"
+      },
+      "fecha_fundacion": {
+        "type": "string",
+        "format": "date",
+        "description": "Fecha de constitución legal (ISO 8601)",
+        "example": "1895-03-15"
+      },
+      "fecha_instalacion": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Timestamp de activación oficial (ISO 8601)",
+        "example": "2023-07-20T15:00:00Z"
+      },
+      "contador": {
+        "type": "integer",
+        "description": "Registro transaccional incremental (ACID compliant)",
+        "minimum": 0,
+        "example": 42
+      },
+      "metadata": {
+        "type": "object",
+        "description": "Datos técnicos para sistemas enterprise",
+        "properties": {
+          "version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$",
+            "example": "2.3.1"
+          },
+          "last_modified": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "source_system": {
+            "type": "string",
+            "enum": ["ERP_SAP", "CRM_SALESFORCE", "GIS_ARCGIS", "LEGACY_MAINFRAME"]
+          }
+        }
+      },
+      "relaciones": {
+        "type": "array",
+        "description": "Red de conexiones institucionales",
+        "items": {
+          "type": "object",
+          "properties": {
+            "entidad": {
+              "type": "string",
+              "enum": ["MIT", "NASA", "CERN", "MAX_PLANCK", "OTAN"]
+            },
+            "tipo_relacion": {
+              "type": "string",
+              "enum": ["Investigación", "Formación", "Operaciones", "Logística"]
+            },
+            "proyecto_id": {
+              "type": "string",
+              "pattern": "^[A-Z]{3}-\\d{4}-[A-Z0-9]{8}$"
+            }
+          }
+        }
+      }
+    }
+  }
+}
