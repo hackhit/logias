@@ -13,6 +13,7 @@
       "geolocalizacion",
       "estado",
       "fecha_fundacion",
+      "fecha_instañacion",
       "version"
     ],
     "properties": {
@@ -91,7 +92,7 @@
       },
       "metadata": {
         "type": "object",
-        "description": "Datos técnicos para sistemas enterprise",
+        "description": "Datos técnicos para sistemas avanzados",
         "properties": {
           "version": {
             "type": "string",
@@ -116,7 +117,7 @@
           "properties": {
             "entidad": {
               "type": "string",
-              "enum": ["MIT", "NASA", "CERN", "MAX_PLANCK", "OTAN"]
+              "enum": ["GLRV"]
             },
             "tipo_relacion": {
               "type": "string",
