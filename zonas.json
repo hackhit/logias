@@ -1,36 +1,23 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Sistema de Zonas Gran Logia de Venezuela",
-  "description": "Modelo de gestión territorial para jurisdicciones masónicas",
+  "title": "Sistema de Zonas Logiales de Venezuela",
+  "description": "Modelo de zonas con cobertura nacional",
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["numero_zona", "nombre", "estados", "geolocalizacion"],
+    "required": ["numero_zona", "nombre", "estados", "geolocalizacion", "representante"],
     "properties": {
       "numero_zona": {
         "type": "integer",
-        "minimum": 1,
-        "maximum": 100,
-        "description": "Identificador numérico único de la zona"
+        "minimum": 1
       },
       "nombre": {
-        "type": "string",
-        "pattern": "^[A-Z][a-z]+(\\s[A-Z][a-z]+)*$",
-        "maxLength": 50
+        "type": "string"
       },
       "estados": {
         "type": "array",
         "items": {
-          "type": "string",
-          "enum": [
-            "Distrito Capital", 
-            "Miranda", 
-            "Zulia", 
-            "Carabobo",
-            "Bolívar",
-            "Anzoátegui",
-            "Táchira"
-          ]
+          "type": "string"
         }
       },
       "geolocalizacion": {
@@ -39,15 +26,22 @@
           "centro_geometrico": {
             "type": "array",
             "items": {
-              "type": "number",
-              "minimum": -90,
-              "maximum": 90
+              "type": "number"
             }
           },
           "radio_operacion": {
-            "type": "number",
-            "minimum": 1,
-            "unit": "kilómetros"
+            "type": "number"
+          }
+        }
+      },
+      "representante": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string"
+          },
+          "apellido": {
+            "type": "string"
           }
         }
       },
@@ -55,8 +49,7 @@
         "type": "object",
         "properties": {
           "logias_asignadas": {
-            "type": "integer",
-            "minimum": 0
+            "type": "integer"
           },
           "ultima_actualizacion": {
             "type": "string",
@@ -70,12 +63,10 @@
           "type": "object",
           "properties": {
             "entidad_colaboradora": {
-              "type": "string",
-              "enum": ["GLRV"]
+              "type": "string"
             },
             "tipo_acuerdo": {
-              "type": "string",
-              "enum": ["Investigacion", "Educativo", "Seguridad", "Tecnológico", "Beneficencia"]
+              "type": "string"
             }
           }
         }
@@ -86,38 +77,207 @@
     {
       "numero_zona": 1,
       "nombre": "Zona Capital",
-      "estados": ["Distrito Capital", "Miranda"],
+      "estados": ["Distrito Capital", "La Guaira"],
       "geolocalizacion": {
         "centro_geometrico": [10.4806, -66.9036],
         "radio_operacion": 50
       },
+      "representante": {
+        "nombre": "Carlos",
+        "apellido": "Rondón"
+      },
       "metadata": {
-        "logias_asignadas": 15,
-        "ultima_actualizacion": "2024-03-20T12:00:00Z"
+        "logias_asignadas": 12,
+        "ultima_actualizacion": "2024-03-25T09:00:00Z"
       },
       "relaciones": [
         {
-          "entidad_colaboradora": "GLRV",
-          "tipo_acuerdo": "Tecnológico"
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Administrativo"
         }
       ]
     },
     {
       "numero_zona": 2,
-      "nombre": "Zona Occidental",
-      "estados": ["Zulia", "Táchira"],
+      "nombre": "Zona Centro Occidental",
+      "estados": ["Aragua", "Carabobo", "Yaracuy"],
       "geolocalizacion": {
-        "centro_geometrico": [9.8233, -70.5584],
-        "radio_operacion": 300
+        "centro_geometrico": [10.0636, -67.8933],
+        "radio_operacion": 150
+      },
+      "representante": {
+        "nombre": "Fermin",
+        "apellido": "Fernández"
       },
       "metadata": {
-        "logias_asignadas": 8,
-        "ultima_actualizacion": "2024-03-19T15:30:00Z"
+        "logias_asignadas": 18,
+        "ultima_actualizacion": "2024-03-24T14:30:00Z"
       },
       "relaciones": [
         {
-          "entidad_colaboradora": "GLRV",
-          "tipo_acuerdo": "Científico"
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Logístico"
+        }
+      ]
+    },
+    {
+      "numero_zona": 3,
+      "nombre": "Zona Los Andes",
+      "estados": ["Mérida", "Táchira", "Trujillo", "Barinas"],
+      "geolocalizacion": {
+        "centro_geometrico": [8.6256, -71.1389],
+        "radio_operacion": 200
+      },
+      "representante": {
+        "nombre": "Luis",
+        "apellido": "Pérez"
+      },
+      "metadata": {
+        "logias_asignadas": 14,
+        "ultima_actualizacion": "2024-03-23T11:45:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Cultural"
+        }
+      ]
+    },
+    {
+      "numero_zona": 4,
+      "nombre": "Zona Oriental",
+      "estados": ["Anzoátegui", "Monagas", "Sucre"],
+      "geolocalizacion": {
+        "centro_geometrico": [9.7463, -63.1832],
+        "radio_operacion": 300
+      },
+      "representante": {
+        "nombre": "Jesus",
+        "apellido": "González"
+      },
+      "metadata": {
+        "logias_asignadas": 9,
+        "ultima_actualizacion": "2024-03-22T16:20:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Educativo"
+        }
+      ]
+    },
+    {
+      "numero_zona": 5,
+      "nombre": "Zona Guayana",
+      "estados": ["Bolívar", "Amazonas", "Delta Amacuro"],
+      "geolocalizacion": {
+        "centro_geometrico": [7.0833, -63.5000],
+        "radio_operacion": 500
+      },
+      "representante": {
+        "nombre": "Pedro",
+        "apellido": "Mendoza"
+      },
+      "metadata": {
+        "logias_asignadas": 7,
+        "ultima_actualizacion": "2024-03-21T10:15:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Investigación"
+        }
+      ]
+    },
+    {
+      "numero_zona": 6,
+      "nombre": "Zona Centro Llanos",
+      "estados": ["Guárico", "Apure", "Cojedes"],
+      "geolocalizacion": {
+        "centro_geometrico": [8.7500, -66.2500],
+        "radio_operacion": 400
+      },
+      "representante": {
+        "nombre": "Jorge",
+        "apellido": "Rojas"
+      },
+      "metadata": {
+        "logias_asignadas": 11,
+        "ultima_actualizacion": "2024-03-20T13:00:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Agroindustrial"
+        }
+      ]
+    },
+    {
+      "numero_zona": 7,
+      "nombre": "Zona Noroccidental",
+      "estados": ["Zulia", "Falcón"],
+      "geolocalizacion": {
+        "centro_geometrico": [10.4667, -71.4333],
+        "radio_operacion": 250
+      },
+      "representante": {
+        "nombre": "Omar",
+        "apellido": "Contreras"
+      },
+      "metadata": {
+        "logias_asignadas": 15,
+        "ultima_actualizacion": "2024-03-19T17:30:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Energético"
+        }
+      ]
+    },
+    {
+      "numero_zona": 8,
+      "nombre": "Zona Nororiental",
+      "estados": ["Nueva Esparta", "Lara", "Portuguesa"],
+      "geolocalizacion": {
+        "centro_geometrico": [9.9167, -66.0833],
+        "radio_operacion": 180
+      },
+      "representante": {
+        "nombre": "Ricardo",
+        "apellido": "Hernández"
+      },
+      "metadata": {
+        "logias_asignadas": 13,
+        "ultima_actualizacion": "2024-03-18T12:45:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Turístico"
+        }
+      ]
+    },
+    {
+      "numero_zona": 9,
+      "nombre": "Zona Sur Occidental",
+      "estados": ["Mérida", "Táchira", "Barinas"],
+      "geolocalizacion": {
+        "centro_geometrico": [8.3000, -70.2167],
+        "radio_operacion": 350
+      },
+      "representante": {
+        "nombre": "Gabriel",
+        "apellido": "Silva"
+      },
+      "metadata": {
+        "logias_asignadas": 10,
+        "ultima_actualizacion": "2024-03-17T15:00:00Z"
+      },
+      "relaciones": [
+        {
+          "entidad_colaboradora": "Gran Logia de Venezuela",
+          "tipo_acuerdo": "Tecnológico"
         }
       ]
     }
