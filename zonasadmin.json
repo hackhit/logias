@@ -1,0 +1,368 @@
+{
+  "zonas": [
+    {
+      "id": 1,
+      "numero": 1,
+      "nombre": "ZONA 1",
+      "nombre_completo": "ZONA MASÓNICA N° 1",
+      "region": "CAPITAL",
+      "sede": {
+        "estado": "",
+        "ciudad": "",
+        "direccion": "",
+        "codigo_postal": "",
+        "coordenadas": {
+          "latitud": "",
+          "longitud": ""
+        }
+      },
+      "estados_componentes": [
+        {
+          "estado": "",
+          "capital": "",
+          "numero_logias": 0,
+          "logias_activas": 0,
+          "logias_inactivas": 0,
+          "total_miembros": 0
+        }
+      ],
+      "autoridades": {
+        "presidente": {
+          "nombre": "",
+          "grado": "",
+          "logia_madre": "",
+          "numero_logia": "",
+          "periodo": "",
+          "fecha_inicio": "",
+          "fecha_fin": "",
+          "telefono": "",
+          "email": "",
+          "foto": ""
+        },
+        "presidente_adjunto": {
+          "nombre": "",
+          "grado": "",
+          "logia_madre": "",
+          "numero_logia": "",
+          "periodo": "",
+          "fecha_inicio": "",
+          "fecha_fin": "",
+          "telefono": "",
+          "email": "",
+          "foto": ""
+        },
+        "secretario": {
+          "nombre": "",
+          "grado": "",
+          "logia_madre": "",
+          "numero_logia": "",
+          "periodo": "",
+          "fecha_inicio": "",
+          "fecha_fin": "",
+          "telefono": "",
+          "email": "",
+          "foto": ""
+        },
+        "jefe_medios_informacion": {
+          "nombre": "",
+          "grado": "",
+          "logia_madre": "",
+          "numero_logia": "",
+          "periodo": "",
+          "fecha_inicio": "",
+          "fecha_fin": "",
+          "telefono": "",
+          "email": "",
+          "foto": ""
+        },
+        "tesorero": {
+          "nombre": "",
+          "grado": "",
+          "logia_madre": "",
+          "numero_logia": "",
+          "periodo": "",
+          "fecha_inicio": "",
+          "fecha_fin": "",
+          "telefono": "",
+          "email": "",
+          "foto": ""
+        },
+        "orador": {
+          "nombre": "",
+          "grado": "",
+          "logia_madre": "",
+          "numero_logia": "",
+          "periodo": "",
+          "fecha_inicio": "",
+          "fecha_fin": "",
+          "telefono": "",
+          "email": "",
+          "foto": ""
+        }
+      },
+      "comisiones": {
+        "ejecutiva": {
+          "miembros": [],
+          "reuniones": {
+            "frecuencia": "",
+            "dia": "",
+            "hora": "",
+            "lugar": ""
+          }
+        },
+        "disciplina": {
+          "miembros": [],
+          "presidente": ""
+        },
+        "beneficencia": {
+          "miembros": [],
+          "presidente": ""
+        },
+        "educacion": {
+          "miembros": [],
+          "presidente": ""
+        },
+        "rituales": {
+          "miembros": [],
+          "presidente": ""
+        }
+      },
+      "contacto": {
+        "telefono_principal": "",
+        "telefono_alternativo": "",
+        "email_principal": "",
+        "email_alternativo": "",
+        "pagina_web": "",
+        "redes_sociales": {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": "",
+          "linkedin": "",
+          "telegram": "",
+          "whatsapp": ""
+        }
+      },
+      "actividades": {
+        "reuniones_zonales": {
+          "frecuencia": "",
+          "lugar": "",
+          "proxima_reunion": ""
+        },
+        "eventos_anuales": [],
+        "actividades_beneficas": [],
+        "actividades_culturales": [],
+        "actividades_educativas": []
+      },
+      "estadisticas": {
+        "total_logias": 0,
+        "logias_activas": 0,
+        "logias_inactivas": 0,
+        "total_miembros": 0,
+        "miembros_activos": 0,
+        "miembros_inactivos": 0,
+        "por_grado": {
+          "aprendices": 0,
+          "companeros": 0,
+          "maestros": 0
+        },
+        "por_estado": {}
+      },
+      "recursos": {
+        "presupuesto_anual": "",
+        "ingresos": {
+          "cuotas_logias": 0,
+          "donaciones": 0,
+          "eventos": 0,
+          "otros": 0
+        },
+        "gastos": {
+          "administrativos": 0,
+          "eventos": 0,
+          "beneficencia": 0,
+          "otros": 0
+        }
+      },
+      "historia": {
+        "fecha_creacion": "",
+        "motivo_creacion": "",
+        "presidentes_anteriores": [],
+        "eventos_importantes": [],
+        "logias_fundadoras": []
+      },
+      "reglamentos": {
+        "reglamento_interno": "",
+        "estatutos": "",
+        "fecha_ultima_actualizacion": "",
+        "version": ""
+      },
+      "comunicaciones": {
+        "circulares": [],
+        "boletines": [],
+        "noticias": [],
+        "anuncios": []
+      },
+      "servicios": {
+        "biblioteca": {
+          "existe": false,
+          "ubicacion": "",
+          "horarios": "",
+          "catalogo": ""
+        },
+        "museo": {
+          "existe": false,
+          "ubicacion": "",
+          "horarios": "",
+          "descripcion": ""
+        },
+        "salon_eventos": {
+          "existe": false,
+          "capacidad": 0,
+          "ubicacion": "",
+          "disponibilidad": ""
+        }
+      },
+      "relaciones": {
+        "otras_zonas": [],
+        "organizaciones_aliadas": [],
+        "instituciones_colaboradoras": []
+      },
+      "metadata": {
+        "fecha_creacion_registro": "",
+        "fecha_ultima_actualizacion": "",
+        "version": "1.0",
+        "verificado": false,
+        "responsable_actualizacion": "",
+        "notas": ""
+      }
+    }
+  ],
+  "mapa_zonas": {
+    "total_zonas": 13,
+    "cobertura_nacional": {
+      "estados_cubiertos": 23,
+      "estados_sin_cobertura": 0
+    },
+    "distribucion": {
+      "zona_1": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_2": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_3": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_4": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_5": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_6": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_7": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_8": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_9": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_10": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_11": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_12": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      },
+      "zona_13": {
+        "estados": [],
+        "logias": 0,
+        "miembros": 0
+      }
+    }
+  },
+  "coordinacion_nacional": {
+    "coordinador_general": {
+      "nombre": "",
+      "zona": "",
+      "periodo": "",
+      "contacto": ""
+    },
+    "coordinador_adjunto": {
+      "nombre": "",
+      "zona": "",
+      "periodo": "",
+      "contacto": ""
+    },
+    "secretario_coordinacion": {
+      "nombre": "",
+      "zona": "",
+      "periodo": "",
+      "contacto": ""
+    },
+    "reuniones_coordinacion": {
+      "frecuencia": "",
+      "lugar": "",
+      "proxima_reunion": ""
+    }
+  },
+  "estadisticas_generales": {
+    "total_logias_nacional": 0,
+    "total_miembros_nacional": 0,
+    "promedio_logias_por_zona": 0,
+    "promedio_miembros_por_zona": 0,
+    "zona_mayor_logias": "",
+    "zona_mayor_miembros": "",
+    "distribucion_geografica": {},
+    "fecha_actualizacion": ""
+  },
+  "configuracion": {
+    "version_esquema": "1.0",
+    "fecha_creacion": "",
+    "autor": "",
+    "descripcion": "Base de datos de zonas masónicas de Venezuela",
+    "campos_requeridos": [
+      "numero",
+      "nombre",
+      "estados_componentes",
+      "autoridades"
+    ],
+    "campos_opcionales": [
+      "contacto",
+      "actividades",
+      "recursos",
+      "historia"
+    ],
+    "periodicidad_actualizacion": "Trimestral"
+  }
+}
