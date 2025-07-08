@@ -219,7 +219,7 @@ Para más información o consultas sobre el proyecto, por favor visita:
 
 - [@hackhit](https://www.github.com/hackhit)
 
-- [@jppod](https://github.com/jppod)
+
 ---
 ## Escribeme
 
