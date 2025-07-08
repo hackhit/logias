@@ -191,9 +191,9 @@ Si estás interesado en colaborar con este proyecto:
 ## 🗃️ Estructura del Contenido
 | Sección       | Responsables      | Estado       |
 |---------------|-------------------|--------------|
-| Desarrollo    | @hackhit, @jppod    | ✅ Activo    |
-| Historia      | @hackhit, @jppod    | ✅ Activo    |
-| Simbolismo    | @hackhit, @jppod  | 🚧 En desarrollo |
+| Desarrollo    | @hackhit,     | ✅ Activo    |
+| Historia      | @hackhit,     | ✅ Activo    |
+| Simbolismo    | @hackhit,     | 🚧 En desarrollo |
 
 
 
