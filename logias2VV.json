@@ -1,0 +1,175 @@
+{
+  "logias": [
+    {
+      "id": 1,
+      "nombre": "PROTECTORA DE LAS VIRTUDES",
+      "numero": 1,
+      "oriente": "BARCELONA",
+      "estado": "ANZOÁTEGUI",
+      "pais": "VENEZUELA",
+      "informacion_general": {
+        "fecha_fundacion": "",
+        "fecha_instalacion": "",
+        "numero_miembros": 0,
+        "zona": "",
+        "rito": "",
+        "gran_logia": "",
+        "estado_actividad": "ACTIVA"
+      },
+      "dignatarios": {
+        "venerable_maestro": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "primer_vigilante": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "segundo_vigilante": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "orador": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "secretario": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "tesorero": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "hospitalario": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "guarda_templo_interior": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "maestro_ceremonias": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        }
+      },
+      "expertos": {
+        "primer_experto": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "segundo_experto": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "primer_maestro_ceremonias": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        },
+        "segundo_maestro_ceremonias": {
+          "nombre": "",
+          "periodo": "",
+          "grado": ""
+        }
+      },
+      "ubicacion": {
+        "direccion": "",
+        "ciudad": "BARCELONA",
+        "estado": "ANZOÁTEGUI",
+        "codigo_postal": "",
+        "coordenadas": {
+          "latitud": "",
+          "longitud": ""
+        }
+      },
+      "contacto": {
+        "telefono_principal": "",
+        "telefono_alternativo": "",
+        "email_principal": "",
+        "email_alternativo": "",
+        "pagina_web": "",
+        "redes_sociales": {
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": "",
+          "linkedin": ""
+        }
+      },
+      "horarios": {
+        "tenidas_ordinarias": {
+          "dia": "",
+          "hora": "",
+          "frecuencia": ""
+        },
+        "tenidas_extraordinarias": {
+          "programacion": ""
+        }
+      },
+      "historia": {
+        "resumen": "",
+        "eventos_importantes": [],
+        "patronos": [],
+        "reconocimientos": []
+      },
+      "actividades": {
+        "beneficas": [],
+        "culturales": [],
+        "educativas": [],
+        "comunitarias": []
+      },
+      "requisitos_ingreso": {
+        "edad_minima": 21,
+        "requisitos_generales": [],
+        "documentacion_requerida": []
+      },
+      "metadata": {
+        "fecha_creacion_registro": "",
+        "fecha_ultima_actualizacion": "",
+        "version": "1.0",
+        "verificado": false,
+        "notas": ""
+      }
+    }
+  ],
+  "estadisticas": {
+    "total_logias": 0,
+    "por_estado": {},
+    "por_oriente": {},
+    "logias_activas": 0,
+    "logias_inactivas": 0,
+    "fecha_actualizacion": ""
+  },
+  "configuracion": {
+    "version_esquema": "1.0",
+    "fecha_creacion": "",
+    "autor": "",
+    "descripcion": "Base de datos de logias masónicas",
+    "campos_requeridos": [
+      "nombre",
+      "numero",
+      "oriente",
+      "estado"
+    ],
+    "campos_opcionales": [
+      "fecha_fundacion",
+      "fecha_instalacion",
+      "numero_miembros",
+      "contacto",
+      "dignatarios"
+    ]
+  }
+}
