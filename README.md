@@ -251,10 +251,9 @@ print(f"Logias en Caracas: {len(logias_caracas['data'])}")
 
 - **181 logias regulares** documentadas y validadas
 - **24 estados** de Venezuela representados
-- **157 orientes** únicos catalogados
 - **200+ años** de historia masónica preservada
 - **Datos de grandes maestros** estructurados
-- **8 zonas administrativas** organizadas
+- **8 zonas administrativas** organizadas falta informacion por documentar (recomiendo no usar aun)
 
 ---
 
@@ -377,7 +376,7 @@ Si te ha sido útil:
 
 <div align="center">
 
-**Hecho con ❤️ para la preservación de la historia masónica venezolana**
+**Hecho con ❤️ para la preservación de la historia de la masoneria venezolana, y siempre sumando y dando un paso como hombrs libres y de buenas costumbres**
 
 [![Gran Logia de Venezuela](https://img.shields.io/badge/Gran%20Logia-Venezuela-gold.svg)](https://www.granlogiadevenezuela.com)
 [![Masonería](https://img.shields.io/badge/Masonería-Regular-blue.svg)](#)
