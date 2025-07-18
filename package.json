@@ -1,0 +1,54 @@
+{
+  "name": "logias-venezuela",
+  "version": "2.0.0",
+  "description": "Sistema integral de gestión de Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "build": "npm run build:api && npm run build:web",
+    "build:api": "node scripts/build-api.js",
+    "build:web": "node scripts/build-web.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "validate": "node scripts/validate-data.js",
+    "lint": "eslint src/",
+    "format": "prettier --write src/",
+    "generate:docs": "node scripts/generate-docs.js",
+    "serve": "http-server dist/ -p 8080"
+  },
+  "keywords": [
+    "masoneria",
+    "logias",
+    "venezuela",
+    "historia",
+    "api",
+    "database"
+  ],
+  "author": "hackhit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "ajv": "^8.12.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3",
+    "http-server": "^14.1.1",
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackhit/logias.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hackhit/logias/issues"
+  },
+  "homepage": "https://github.com/hackhit/logias#readme"
+}
