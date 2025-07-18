@@ -98,7 +98,7 @@ Seguimos el principio de **divulgación coordinada**:
 
 ---
 
-**Última actualización:** [Fecha actual]  
+**Última actualización:** 18/07/2025  
 **Versión de la política:** 2.0
 
 > 💡 **Nota:** Esta política de seguridad se revisa y actualiza regularmente. Las mejoras y sugerencias son bienvenidas.
