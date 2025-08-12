@@ -3,10 +3,13 @@
  */
 
 const Ajv = require('ajv');
-const addFormats = require('ajv-formats');
 
+// Configurar Ajv con soporte básico para fechas ISO
 const ajv = new Ajv();
-addFormats(ajv);
+ajv.addFormat('date', {
+  type: 'string',
+  validate: (date) => /^\d{4}-\d{2}-\d{2}$/.test(date)
+});
 
 // Schema para validar logias
 const logiaSchema = {
@@ -59,7 +62,7 @@ function validateLogias(logias) {
   const errors = [];
   const warnings = [];
   const numerosSeen = new Set();
-  
+
   logias.forEach((logia, index) => {
     // Validación de schema
     const isValid = validateLogia(logia);
@@ -70,7 +73,7 @@ function validateLogias(logias) {
         errores: validateLogia.errors
       });
     }
-    
+
     // Validación de números duplicados
     if (numerosSeen.has(logia.numero)) {
       errors.push({
@@ -80,12 +83,12 @@ function validateLogias(logias) {
       });
     }
     numerosSeen.add(logia.numero);
-    
+
     // Validaciones adicionales (warnings)
     if (logia.fecha_fundacion && logia.fecha_instalacion) {
       const fundacion = new Date(logia.fecha_fundacion);
       const instalacion = new Date(logia.fecha_instalacion);
-      
+
       if (instalacion < fundacion) {
         warnings.push({
           index,
@@ -94,7 +97,7 @@ function validateLogias(logias) {
         });
       }
     }
-    
+
     // Verificar fechas futuras
     const now = new Date();
     if (logia.fecha_fundacion && new Date(logia.fecha_fundacion) > now) {
@@ -105,7 +108,7 @@ function validateLogias(logias) {
       });
     }
   });
-  
+
   return {
     valido: errors.length === 0,
     errores: errors,

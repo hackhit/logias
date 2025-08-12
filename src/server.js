@@ -2,6 +2,7 @@
  * Servidor principal de la API de Logias
  */
 
+/* eslint-disable no-console */
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -71,7 +72,7 @@ app.use('*', (req, res) => {
 });
 
 // Manejo global de errores
-app.use((error, req, res, next) => {
+app.use((error, req, res, _next) => {
   console.error('Error:', error);
   res.status(500).json({
     success: false,
@@ -81,10 +82,10 @@ app.use((error, req, res, next) => {
 });
 
 // Iniciar servidor
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
   console.log(`📚 Documentación disponible en http://localhost:${PORT}/docs`);
   console.log(`🔍 API base en http://localhost:${PORT}/api`);
 });
 
-module.exports = app;
+module.exports = server;
