@@ -80,11 +80,13 @@ app.use((error, req, res, next) => {
   });
 });
 
-// Iniciar servidor
-app.listen(PORT, () => {
-  console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
-  console.log(`📚 Documentación disponible en http://localhost:${PORT}/docs`);
-  console.log(`🔍 API base en http://localhost:${PORT}/api`);
-});
+// Iniciar servidor solo si este archivo es ejecutado directamente
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`🚀 Servidor corriendo en puerto ${PORT}`);
+    console.log(`📚 Documentación disponible en http://localhost:${PORT}/docs`);
+    console.log(`🔍 API base en http://localhost:${PORT}/api`);
+  });
+}
 
 module.exports = app;
