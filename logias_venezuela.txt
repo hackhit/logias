@@ -1,0 +1,193 @@
+NOMBRE_LOGIA                                       NUMERO_LOGIA  ORIENTE                   ESTADO
+LUZ DEL AMAZONAS                                   159  PUERTO AYACUCHO           AMAZONAS
+JOSÉ CORTÉS MADARIAGA                              147  ANACO                     ANZOÁTEGUI
+LUIS VAZ DE CAMOES                                 279  ANACO                     ANZOÁTEGUI
+PROTECTORA DE LAS VIRTUDES                         1    BARCELONA                 ANZOÁTEGUI
+JUAN MANUEL CAGIGAL                                177  BARCELONA                 ANZOÁTEGUI
+LANCEROS DE PÁEZ                                   230  BARCELONA                 ANZOÁTEGUI
+GUILLERMO ENRIQUE FREITES                          280  BARCELONA                 ANZOÁTEGUI
+SOL DE ANZOÁTEGUI                                  117  CANTAURA                  ANZOÁTEGUI
+ESTRELLA DE UNARE                                  185  CLARINES                  ANZOÁTEGUI
+ESTRELLA DE GUANIPA                                41   EL TIGRE                  ANZOÁTEGUI
+KARIÑA                                             253  EL TIGRE                  ANZOÁTEGUI
+SAMUEL ROBINSON                                    259  GUANIPA                   ANZOÁTEGUI
+CONCIENCIA UNIVERSAL                               260  LECHERÍA                  ANZOÁTEGUI
+LUZ DE MIRANDA                                     131  PARIAGUAN                 ANZOÁTEGUI
+LUZ DEL CARIBE                                     44   PUERTO LA CRUZ            ANZOÁTEGUI
+SIMÓN BOLÍVAR                                      76   PÍRITU                    ANZOÁTEGUI
+VALLE DE ARMONÍA                                   272  VALLE GUANAPE             ANZOÁTEGUI
+SOL DE ACHAGUAS                                    199  ACHAGUAS                  APURE
+RENATO FLORES PUERTA                               191  CUNAVICHE                 APURE
+CANDOR                                             27   SAN FERNANDO DE APURE     APURE
+ESTRELLA DE ARAGUA                                 127  CAGUA                     ARAGUA
+STEFANO PICCOLO                                    252  CAGUA                     ARAGUA
+VICTORIA                                           9    LA VICTORIA               ARAGUA
+SOL DE ARAGUA                                      96   MARACAY                   ARAGUA
+LEONARDO DA VINCI                                  244  MARACAY                   ARAGUA
+FEDERICO II                                        254  MARACAY                   ARAGUA
+HIRAM                                              102  ARUBA                     ARUBA
+OASIS DE LA PAZ                                    111  BARINAS                   BARINAS
+ESTOICA                                            288  BARINAS                   BARINAS
+LUZ DEL ORINOCO                                    161  CAICARA DEL ORINOCO       BOLÍVAR
+ASILO DE LA PAZ                                    13   CIUDAD BOLÍVAR            BOLÍVAR
+SOL DE GUAYANA                                     218  CIUDAD BOLÍVAR            BOLÍVAR
+CARLOS RODRÍGUEZ JIMÉNEZ                           221  CIUDAD BOLÍVAR            BOLÍVAR
+CONGRESO DE ANGOSTURA                              224  CIUDAD BOLÍVAR            BOLÍVAR
+CORREO DEL ORINOCO                                 227  CIUDAD BOLÍVAR            BOLÍVAR
+JUSTICIA Y LUZ                                     231  CIUDAD BOLÍVAR            BOLÍVAR
+RAFAEL CALABRESE                                   241  CIUDAD BOLÍVAR            BOLÍVAR
+HUMBERTO CAMEJO ARIAS                              251  CIUDAD BOLÍVAR            BOLÍVAR
+DOMINGO FAUSTINO SARMIENTO                         167  CIUDAD GUAYANA            BOLÍVAR
+MANUEL PIAR                                        164  CIUDAD PIAR               BOLÍVAR
+DALLA COSTA                                        75   EL CALLAO                 BOLÍVAR
+ESTRELLA GUZMÁN BLANCO                             130  EL DORADO                 BOLÍVAR
+ESTRELLA DEL SUPAMO                                232  EL MANTECO                BOLÍVAR
+SOL DE IMATACA                                     128  EL PALMAR                 BOLÍVAR
+UNIÓN FRATERNAL                                    281  GUASIPATI                 BOLÍVAR
+HANS HAUSCHILDT                                    175  PUERTO ORDAZ              BOLÍVAR
+DR. CESAR OBDULIO IRIARTE                          202  PUERTO ORDAZ              BOLÍVAR
+SALMO 133                                          209  PUERTO ORDAZ              BOLÍVAR
+JESUS VALENTINO LATAN LA ROSA                      220  PUERTO ORDAZ              BOLÍVAR
+LUZ Y REFLEXIÓN                                    223  PUERTO ORDAZ              BOLÍVAR
+ESTUDIOS TRADICIONALES                             262  PUERTO ORDAZ              BOLÍVAR
+AURORA DEL YURUARI                                 53   SAN FÉLIX                 BOLÍVAR
+BOLÍVAR Y SUCRE                                    228  SAN FÉLIX                 BOLÍVAR
+RESTAURADORES DEL HONOR XXII                       261  SAN FÉLIX                 BOLÍVAR
+GRAN CADENA UNIVERSAL                              271  SAN FÉLIX                 BOLÍVAR
+ESTRELLA DE RORAIMA                                188  SANTA ELENA DE UAIREN     BOLÍVAR
+DIOS Y PATRIA                                      67   TUMEREMO                  BOLÍVAR
+PEDRO ANTONIO OLIVIERI GRILLASCA                   267  TUMEREMO                  BOLÍVAR
+PEDRO COVA                                         28   UPATA                     BOLÍVAR
+JUAN FRANCISCO GIRÓN                               219  UPATA                     BOLÍVAR
+DIEGO IBARRA                                       207  MARIARA                   CARABOBO
+AMANTES DE LA CARIDAD                              95   PUERTO CABELLO            CARABOBO
+JOSÉ ANTONIO HERNÁNDEZ ANTILLANO                   264  SAN DIEGO                 CARABOBO
+FÉNIX                                              8    VALENCIA                  CARABOBO
+URANIA                                             163  VALENCIA                  CARABOBO
+LUX ET ACTIO                                       201  VALENCIA                  CARABOBO
+ACACIA                                             240  VALENCIA                  CARABOBO
+MIGUEL ÁNGEL ORTEGA                                247  VALENCIA                  CARABOBO
+CABALLEROS DEL SOL DE CARABOBO                     269  VALENCIA                  CARABOBO
+CARLOS FUNG DÍAZ                                   278  VALENCIA                  CARABOBO
+EGREGOR MIRANDINO                                  289  VALENCIA                  CARABOBO
+MANUEL MANRIQUE                                    198  SAN CARLOS                COJEDES
+CARLOS DANIEL FERNÁNDEZ                            270  CASACOIMA                 DELTA AMACURO
+FRANCISCO DE MIRANDA                               73   TUCUPITA                  DELTA AMACURO
+LUIS RAMÓN ROMERO CARREÑO                          255  TUCUPITA                  DELTA AMACURO
+ESTRELLA DEL DELTA                                 286  TUCUPITA                  DELTA AMACURO
+FRATERNIDAD                                        4    CARACAS                   DISTRITO CAPITAL
+LA UNIÓN                                           5    CARACAS                   DISTRITO CAPITAL
+ESPERANZA                                          7    CARACAS                   DISTRITO CAPITAL
+PORVENIR                                           18   CARACAS                   DISTRITO CAPITAL
+LEALTAD                                            19   CARACAS                   DISTRITO CAPITAL
+AURORA DE PETARE                                   26   CARACAS                   DISTRITO CAPITAL
+ANDRÉS BELLO                                       33   CARACAS                   DISTRITO CAPITAL
+SOL DE AMÉRICA                                     37   CARACAS                   DISTRITO CAPITAL
+ESTRELLA DEL ÁVILA                                 50   CARACAS                   DISTRITO CAPITAL
+RENOVACIÓN                                         72   CARACAS                   DISTRITO CAPITAL
+GEORGE WASHINGTON LODGE                            100  CARACAS                   DISTRITO CAPITAL
+LIBERTAD ESPAÑOLA                                  101  CARACAS                   DISTRITO CAPITAL
+SÍMBOLO                                            113  CARACAS                   DISTRITO CAPITAL
+GANDHI                                             114  CARACAS                   DISTRITO CAPITAL
+ESTRELLA BOLÍVAR                                   118  CARACAS                   DISTRITO CAPITAL
+DE MOLAY                                           119  CARACAS                   DISTRITO CAPITAL
+HUMBOLDT                                           141  CARACAS                   DISTRITO CAPITAL
+GIORDANO BRUNO                                     142  CARACAS                   DISTRITO CAPITAL
+IGUALDAD                                           145  CARACAS                   DISTRITO CAPITAL
+ILUSTRE AMERICANO                                  150  CARACAS                   DISTRITO CAPITAL
+LA FAYETTE                                         157  CARACAS                   DISTRITO CAPITAL
+BUENAVENTURA BRICEÑO BELISARIO                     168  CARACAS                   DISTRITO CAPITAL
+TEMPLO DE SALOMÓN                                  172  CARACAS                   DISTRITO CAPITAL
+DIEGO BAUTISTA URBANEJA                            173  CARACAS                   DISTRITO CAPITAL
+LIBERTAD                                           179  CARACAS                   DISTRITO CAPITAL
+SIMÓN RODRÍGUEZ                                    194  CARACAS                   DISTRITO CAPITAL
+SOL DE CARACAS                                     195  CARACAS                   DISTRITO CAPITAL
+LAUTARO                                            197  CARACAS                   DISTRITO CAPITAL
+ZAMOLXIS                                           205  CARACAS                   DISTRITO CAPITAL
+GRAL. EN JEFE SANTIAGO MARIÑO                      208  CARACAS                   DISTRITO CAPITAL
+SIRIUS                                             215  CARACAS                   DISTRITO CAPITAL
+ESPERANZA 7 DEL ESTE                               233  CARACAS                   DISTRITO CAPITAL
+BÓVEDAS DE HENOCH                                  246  CARACAS                   DISTRITO CAPITAL
+LA GRAN FAMILIA                                    266  CARACAS                   DISTRITO CAPITAL
+NICOLA TESLA                                       274  CARACAS                   DISTRITO CAPITAL
+ALQUIMISTAS DEL ESPÍRITU                           276  CARACAS                   DISTRITO CAPITAL
+MIRANDA REGRESA                                    300  CARACAS                   DISTRITO CAPITAL
+JUAN CRISÓSTOMO FALCÓN                             226  MIRIMIRE                  FALCÓN
+FALCÓN                                             104  PUNTO FIJO                FALCÓN
+VIRTUD Y VICTORIA                                  277  SANTA ANA DE CORO         FALCÓN
+SOL NACIENTE                                       71   TUCACAS                   FALCÓN
+SINAÍ                                              78   ALTAGRACIA DE ORITUCO     GUÁRICO
+SOL DE CABRUTA                                     248  CABRUTA                   GUÁRICO
+ESTRELLA DEL GUÁRICO                               20   CALABOZO                  GUÁRICO
+ESTRELLA DE LAS PAMPAS                             54   EL SOCORRO                GUÁRICO
+CORONEL JULIÁN MELLADO                             236  EL SOMBRERO               GUÁRICO
+ASILO LLANERO                                      106  LAS MERCEDES DEL LLANO    GUÁRICO
+LUZ Y ARMONÍA                                      83   SAN JOSÉ DE GUARIBE       GUÁRICO
+ESTRELLA DE SAN JUAN                               107  SAN JUAN DE LOS MORROS    GUÁRICO
+SOL DE LOS LLANOS                                  214  SAN JUAN DE LOS MORROS    GUÁRICO
+WINSTON CHURCHILL                                  273  SAN JUAN DE LOS MORROS    GUÁRICO
+AURORA DE LA PAZ                                   55   TUCUPIDO                  GUÁRICO
+LIBERTADOR                                         89   VALLE DE LA PASCUA        GUÁRICO
+VALLE DE LOS LIRIOS                                213  VALLE DE LA PASCUA        GUÁRICO
+TEMPLO PITAGÓRICO                                  238  VALLE DE LA PASCUA        GUÁRICO
+LUZ DE UNARE                                       38   ZARAZA                    GUÁRICO
+SOL DEL GUÁRICO                                    216  ZARAZA                    GUÁRICO
+UNANIMIDAD                                         3    LA GUAIRA                 LA GUAIRA
+GUAL Y ESPAÑA                                      243  LA GUAIRA                 LA GUAIRA
+TEOFILO LEAL                                       115  BARQUISIMETO              LARA
+LIBERTAD Y DERECHO                                 158  BARQUISIMETO              LARA
+RENACIMIENTO                                       222  BARQUISIMETO              LARA
+LEGIONARIOS DEL ORDEN                              285  BARQUISIMETO              LARA
+MORAL Y LUCES                                      155  GUARENAS                  MIRANDA
+VICENTE EMILIO SOJO                                258  GUATIRE                   MIRANDA
+SOL DE MIRANDA                                     204  LOS TEQUES                MIRANDA
+GRAL. JOSÉ FÉLIX RIBAS                             148  OCUMARE DEL TUY           MIRANDA
+OPERATIVA                                          210  SAN ANTONIO DE LOS ALTOS  MIRANDA
+LUZ DE SAN ANTONIO DE LOS ALTOS                    282  SAN ANTONIO DE LOS ALTOS  MIRANDA
+ESTRELLA DEL SUR                                   165  BARRANCAS                 MONAGAS
+LUZ Y PROGRESO                                     94   CARIPE                    MONAGAS
+LUZ DE LA FRATERNIDAD                              81   MATURÍN                   MONAGAS
+UNIDAD Y ARMONÍA                                   225  MATURÍN                   MONAGAS
+DR. EDITO ACEVEDO                                  235  MATURÍN                   MONAGAS
+FRANCISCO PEREIRO LIZ                              239  MATURÍN                   MONAGAS
+SERGIO GONZÁLEZ RAVEST                             249  MATURÍN                   MONAGAS
+CIPRIANO CHANICO MARCANO                           284  MATURÍN                   MONAGAS
+JOSÉ QUIJADA GAMBOA                                291  MATURÍN                   MONAGAS
+ARMONÍA                                            110  PUNTA DE MATA             MONAGAS
+ANTONIO JOSÉ DE SUCRE                              105  QUIRIQUIRE                MONAGAS
+PERSEVERANCIA                                      160  TEMBLADOR                 MONAGAS
+FELIZ RAMÓN MACHADO                                217  URACOA                    MONAGAS
+DERECHOS HUMANOS                                   162  MÉRIDA                    MÉRIDA
+DEBERES HUMANOS                                    237  MÉRIDA                    MÉRIDA
+JUAN BAUTISTA ARISMENDI                            79   JUAN GRIEGO               NUEVA ESPARTA
+MIGUEL TEJEDA                                      257  LA ASUNCIÓN               NUEVA ESPARTA
+SAN JUAN DE LAS MARGARITAS                         268  LA ASUNCIÓN               NUEVA ESPARTA
+CORAZONES UNIDOS                                   183  PAMPATAR                  NUEVA ESPARTA
+LINO LUGO MARÍN                                    275  PEDREGALES                NUEVA ESPARTA
+SOL DE NUEVA ESPARTA                               84   PORLAMAR                  NUEVA ESPARTA
+TRADICIÓN Y PROGRESO                               200  VALLE DEL ESPÍRITU SANTO  NUEVA ESPARTA
+NICOLAS CHIOTAKIS                                  263  ARAURE                    PORTUGUESA
+CONCORDIA                                          36   GUANARE                   PORTUGUESA
+VIRTUD Y ORDEN                                     22   CARÚPANO                  SUCRE
+BELLA ALTAGRACIA                                   24   CUMANA                    SUCRE
+PERFECTA ARMONÍA                                   2    CUMANÁ                    SUCRE
+BOLÍVAR Y MORILLO                                  91   VALERA                    TRUJILLO
+LUZ DE LOS ANDES                                   229  VALERA                    TRUJILLO
+LUZ HERMÉTICA                                      193  SAN ANTONIO DEL TÁCHIRA   TÁCHIRA
+RENACER                                            292  SAN ANTONIO DEL TÁCHIRA   TÁCHIRA
+SOL DEL TÁCHIRA                                    85   SAN CRISTÓBAL             TÁCHIRA
+PIO GIL                                            166  SAN CRISTÓBAL             TÁCHIRA
+RESTAURADORES DEL HONOR                            184  SAN CRISTÓBAL             TÁCHIRA
+KRESTOS SOPHIA                                     256  SAN CRISTÓBAL             TÁCHIRA
+JOSÉ ANTONIO PÁEZ                                  265  SAN CRISTÓBAL             TÁCHIRA
+SOL DE OCCIDENTE                                   283  SAN CRISTÓBAL             TÁCHIRA
+CABALLEROS HOSPITALARIOS DE SAN JUAN DE JERUSALÉM  287  TÁRIBA                    TÁCHIRA
+SOL DE YARACUY                                     176  SAN FELIPE                YARACUY
+RICAURTE                                           82   CABIMAS                   ZULIA
+RAFAEL MARÍA BARALT                                250  CABIMAS                   ZULIA
+JESÚS ENRIQUE LOSSADA                              146  CIUDAD OJEDA              ZULIA
+REGENERADORES                                      6    MARACAIBO                 ZULIA
+BUENA VISTA LODGE                                  116  MARACAIBO                 ZULIA
+GRAL. RAFAEL URDANETA                              126  MARACAIBO                 ZULIA
+SIMÓN BOLÍVAR «LIBERTADOR»                         242  MARACAIBO                 ZULIA
+PEDRO ALCIRO BARBOZA DE LA TORRE                   245  MARACAIBO                 ZULIA

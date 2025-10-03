@@ -1,0 +1,128 @@
+[
+  {
+    "id": "HTA",
+    "nombre": "Hipertensión arterial",
+    "slug": "hipertension-arterial",
+    "requires_detail": false
+  },
+  {
+    "id": "DM",
+    "nombre": "Diabetes mellitus",
+    "slug": "diabetes-mellitus",
+    "requires_detail": false
+  },
+  {
+    "id": "ASMA",
+    "nombre": "Asma",
+    "slug": "asma",
+    "requires_detail": false
+  },
+  {
+    "id": "EPOC",
+    "nombre": "EPOC",
+    "slug": "epoc",
+    "requires_detail": false
+  },
+  {
+    "id": "CARDIOPATIA_ISQUEMICA",
+    "nombre": "Cardiopatía isquémica",
+    "slug": "cardiopatia-isquemica",
+    "requires_detail": false
+  },
+  {
+    "id": "IC",
+    "nombre": "Insuficiencia cardíaca",
+    "slug": "insuficiencia-cardiaca",
+    "requires_detail": false
+  },
+  {
+    "id": "ERC",
+    "nombre": "Enfermedad renal crónica",
+    "slug": "enfermedad-renal-cronica",
+    "requires_detail": false
+  },
+  {
+    "id": "DISLIPIDEMIA",
+    "nombre": "Dislipidemia",
+    "slug": "dislipidemia",
+    "requires_detail": false
+  },
+  {
+    "id": "HIPOTIROIDISMO",
+    "nombre": "Hipotiroidismo",
+    "slug": "hipotiroidismo",
+    "requires_detail": false
+  },
+  {
+    "id": "HIPERTIROIDISMO",
+    "nombre": "Hipertiroidismo",
+    "slug": "hipertiroidismo",
+    "requires_detail": false
+  },
+  {
+    "id": "GASTRITIS_ULCERA",
+    "nombre": "Gastritis / Úlcera péptica",
+    "slug": "gastritis-ulcera-peptica",
+    "requires_detail": false
+  },
+  {
+    "id": "ERGE",
+    "nombre": "Reflujo gastroesofágico (ERGE)",
+    "slug": "erge",
+    "requires_detail": false
+  },
+  {
+    "id": "HEPATITIS",
+    "nombre": "Hepatitis (especificar tipo)",
+    "slug": "hepatitis",
+    "requires_detail": true
+  },
+  {
+    "id": "TB",
+    "nombre": "Tuberculosis (antecedente)",
+    "slug": "tuberculosis-antecedente",
+    "requires_detail": false
+  },
+  {
+    "id": "CANCER",
+    "nombre": "Cáncer (especificar tipo)",
+    "slug": "cancer",
+    "requires_detail": true
+  },
+  {
+    "id": "EPILEPSIA",
+    "nombre": "Epilepsia",
+    "slug": "epilepsia",
+    "requires_detail": false
+  },
+  {
+    "id": "DEPRESION",
+    "nombre": "Trastorno depresivo",
+    "slug": "trastorno-depresivo",
+    "requires_detail": false
+  },
+  {
+    "id": "ANSIEDAD",
+    "nombre": "Trastorno de ansiedad",
+    "slug": "trastorno-de-ansiedad",
+    "requires_detail": false
+  },
+  {
+    "id": "VIH",
+    "nombre": "VIH",
+    "slug": "vih",
+    "requires_detail": false
+  },
+  {
+    "id": "DENGUE_RECIENTE",
+    "nombre": "Dengue reciente",
+    "slug": "dengue-reciente",
+    "requires_detail": false
+  },
+  {
+    "id": "EMBARAZO_ACTUAL",
+    "nombre": "Embarazo actual",
+    "slug": "embarazo-actual",
+    "requires_detail": false
+  }
+]

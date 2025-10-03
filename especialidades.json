@@ -1,0 +1,122 @@
+[
+  {
+    "id": "MEDICINA_GENERAL",
+    "nombre": "Medicina General",
+    "slug": "medicina-general"
+  },
+  {
+    "id": "MEDICINA_INTERNA",
+    "nombre": "Medicina Interna",
+    "slug": "medicina-interna"
+  },
+  {
+    "id": "PEDIATRIA",
+    "nombre": "Pediatría",
+    "slug": "pediatria"
+  },
+  {
+    "id": "GINECOLOGIA_OBSTETRICIA",
+    "nombre": "Ginecología-Obstetricia",
+    "slug": "ginecologia-obstetricia"
+  },
+  {
+    "id": "CIRUGIA_GENERAL",
+    "nombre": "Cirugía General",
+    "slug": "cirugia-general"
+  },
+  {
+    "id": "TRAUMATOLOGIA_ORTOPEDIA",
+    "nombre": "Traumatología y Ortopedia",
+    "slug": "traumatologia-ortopedia"
+  },
+  {
+    "id": "CARDIOLOGIA",
+    "nombre": "Cardiología",
+    "slug": "cardiologia"
+  },
+  {
+    "id": "NEUMONOLOGIA",
+    "nombre": "Neumonología",
+    "slug": "neumonologia"
+  },
+  {
+    "id": "GASTROENTEROLOGIA",
+    "nombre": "Gastroenterología",
+    "slug": "gastroenterologia"
+  },
+  {
+    "id": "ENDOCRINOLOGIA",
+    "nombre": "Endocrinología",
+    "slug": "endocrinologia"
+  },
+  {
+    "id": "NEFROLOGIA",
+    "nombre": "Nefrología",
+    "slug": "nefrologia"
+  },
+  {
+    "id": "NEUROLOGIA",
+    "nombre": "Neurología",
+    "slug": "neurologia"
+  },
+  {
+    "id": "PSIQUIATRIA",
+    "nombre": "Psiquiatría",
+    "slug": "psiquiatria"
+  },
+  {
+    "id": "PSICOLOGIA",
+    "nombre": "Psicología",
+    "slug": "psicologia"
+  },
+  {
+    "id": "DERMATOLOGIA",
+    "nombre": "Dermatología",
+    "slug": "dermatologia"
+  },
+  {
+    "id": "OTORRINOLARINGOLOGIA",
+    "nombre": "Otorrinolaringología",
+    "slug": "otorrinolaringologia"
+  },
+  {
+    "id": "OFTALMOLOGIA",
+    "nombre": "Oftalmología",
+    "slug": "oftalmologia"
+  },
+  {
+    "id": "UROLOGIA",
+    "nombre": "Urología",
+    "slug": "urologia"
+  },
+  {
+    "id": "REUMATOLOGIA",
+    "nombre": "Reumatología",
+    "slug": "reumatologia"
+  },
+  {
+    "id": "ALERGOLOGIA_INMUNOLOGIA",
+    "nombre": "Alergología e Inmunología",
+    "slug": "alergologia-inmunologia"
+  },
+  {
+    "id": "FISIATRIA_MFR",
+    "nombre": "Medicina Física y Rehabilitación (Fisiatría)",
+    "slug": "fisiatria-mfr"
+  },
+  {
+    "id": "ODONTOLOGIA",
+    "nombre": "Odontología",
+    "slug": "odontologia"
+  },
+  {
+    "id": "NUTRICION_DIETETICA",
+    "nombre": "Nutrición y Dietética",
+    "slug": "nutricion-dietetica"
+  },
+  {
+    "id": "ANESTESIOLOGIA",
+    "nombre": "Anestesiología",
+    "slug": "anestesiologia"
+  }
+]
