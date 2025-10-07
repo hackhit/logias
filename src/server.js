@@ -37,14 +37,15 @@ app.get('/', (req, res) => {
   res.json({
     nombre: 'API Logias Venezuela',
     version: '2.0.0',
-    descripcion: 'API RESTful para consultar información de Logias Regulares de Venezuela',
+    descripcion:
+      'API RESTful para consultar información de Logias Regulares de Venezuela',
     endpoints: {
       logias: '/api/logias',
       estadisticas: '/api/estadisticas',
-      documentacion: '/docs'
+      documentacion: '/docs',
     },
     repository: 'https://github.com/hackhit/logias',
-    autor: 'hackhit'
+    autor: 'hackhit',
   });
 });
 
@@ -58,7 +59,7 @@ app.get('/health', (req, res) => {
   res.json({
     status: 'OK',
     timestamp: new Date().toISOString(),
-    uptime: process.uptime()
+    uptime: process.uptime(),
   });
 });
 
@@ -67,7 +68,7 @@ app.use('*', (req, res) => {
   res.status(404).json({
     success: false,
     message: 'Endpoint no encontrado',
-    path: req.originalUrl
+    path: req.originalUrl,
   });
 });
 
@@ -77,7 +78,7 @@ app.use((error, req, res, _next) => {
   res.status(500).json({
     success: false,
     message: 'Error interno del servidor',
-    error: process.env.NODE_ENV === 'development' ? error.message : undefined
+    error: process.env.NODE_ENV === 'development' ? error.message : undefined,
   });
 });
 
