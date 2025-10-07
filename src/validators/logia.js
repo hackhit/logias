@@ -8,7 +8,7 @@ const Ajv = require('ajv');
 const ajv = new Ajv();
 ajv.addFormat('date', {
   type: 'string',
-  validate: (date) => /^\d{4}-\d{2}-\d{2}$/.test(date)
+  validate: (date) => /^\d{4}-\d{2}-\d{2}$/.test(date),
 });
 
 // Schema para validar logias
@@ -18,37 +18,37 @@ const logiaSchema = {
     nombre_logia: {
       type: 'string',
       minLength: 1,
-      maxLength: 100
+      maxLength: 100,
     },
     numero: {
       type: 'integer',
-      minimum: 1
+      minimum: 1,
     },
     oriente: {
       type: 'string',
       minLength: 1,
-      maxLength: 50
+      maxLength: 50,
     },
     estado: {
       type: 'string',
       minLength: 1,
-      maxLength: 50
+      maxLength: 50,
     },
     fecha_fundacion: {
       type: ['string', 'null'],
-      format: 'date'
+      format: 'date',
     },
     fecha_instalacion: {
       type: ['string', 'null'],
-      format: 'date'
+      format: 'date',
     },
     contador: {
       type: 'integer',
-      minimum: 1
-    }
+      minimum: 1,
+    },
   },
   required: ['nombre_logia', 'numero', 'oriente', 'estado', 'contador'],
-  additionalProperties: false
+  additionalProperties: false,
 };
 
 const validateLogia = ajv.compile(logiaSchema);
@@ -70,7 +70,7 @@ function validateLogias(logias) {
       errors.push({
         index,
         logia: logia.nombre_logia || `Índice ${index}`,
-        errores: validateLogia.errors
+        errores: validateLogia.errors,
       });
     }
 
@@ -79,7 +79,7 @@ function validateLogias(logias) {
       errors.push({
         index,
         logia: logia.nombre_logia,
-        error: `Número ${logia.numero} duplicado`
+        error: `Número ${logia.numero} duplicado`,
       });
     }
     numerosSeen.add(logia.numero);
@@ -93,7 +93,7 @@ function validateLogias(logias) {
         warnings.push({
           index,
           logia: logia.nombre_logia,
-          warning: 'Fecha de instalación anterior a la fundación'
+          warning: 'Fecha de instalación anterior a la fundación',
         });
       }
     }
@@ -104,7 +104,7 @@ function validateLogias(logias) {
       warnings.push({
         index,
         logia: logia.nombre_logia,
-        warning: 'Fecha de fundación en el futuro'
+        warning: 'Fecha de fundación en el futuro',
       });
     }
   });
@@ -116,13 +116,13 @@ function validateLogias(logias) {
     estadisticas: {
       total: logias.length,
       errores: errors.length,
-      advertencias: warnings.length
-    }
+      advertencias: warnings.length,
+    },
   };
 }
 
 module.exports = {
   validateLogia,
   validateLogias,
-  logiaSchema
+  logiaSchema,
 };

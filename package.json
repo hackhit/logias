@@ -2,9 +2,9 @@
   "name": "logias-venezuela",
   "version": "2.0.0",
   "description": "Sistema integral de gestión de Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "node src/server.js",
+    "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "build": "npm run build:api && npm run build:web",
     "build:api": "node scripts/build-api.js",
