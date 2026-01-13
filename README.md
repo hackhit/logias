@@ -152,34 +152,56 @@ GET    /api/estadisticas/timeline     # Timeline de fundaciones por año
 ### JavaScript (Fetch API)
 
 ```javascript
-// Obtener todas las logias
+/**
+ * Obtiene todas las logias del sistema con validación robusta.
+ * @returns {Promise<Array>} Array de logias o array vacío en error.
+ */
 async function obtenerLogias() {
   try {
     const response = await fetch('/api/logias');
-    const data = await response.json();
-    
-    if (data.success) {
-      console.log(`Total de logias: ${data.meta.total}`);
-      data.data.forEach(logia => {
-        console.log(`${logia.numero}: ${logia.nombre_logia} - ${logia.oriente}`);
-      });
+
+    // 1. Validar estado HTTP (200-299)
+    if (!response.ok) {
+      throw new Error(`HTTP Error: ${response.status} ${response.statusText}`);
     }
+
+    const data = await response.json();
+
+    // 2. Validar lógica de negocio
+    if (!data.success) {
+      throw new Error(data.message || 'Error desconocido en API');
+    }
+
+    console.info(`✅ Logias recuperadas: ${data.meta.total}`);
+    return data.data;
+
   } catch (error) {
-    console.error('Error:', error);
+    console.error('❌ Error crítico:', error.message);
+    return []; // Fallback seguro
   }
 }
 
-// Buscar logias con filtros
-async function buscarLogias(estado, limite = 10) {
-  const params = new URLSearchParams({
-    estado: estado,
-    limit: limite
-  });
-  
-  const response = await fetch(`/api/logias?${params}`);
-  const data = await response.json();
-  
-  return data.data;
+/**
+ * Busca logias con filtros dinámicos.
+ * @param {Object} filtros - Ej: { estado: 'Lara' }
+ * @param {number} limit - Límite de resultados
+ */
+async function buscarLogias(filtros = {}, limit = 10) {
+  try {
+    const params = new URLSearchParams({ 
+      ...filtros, 
+      limit: limit.toString() 
+    });
+    
+    const response = await fetch(`/api/logias?${params}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    
+    const data = await response.json();
+    return data.success ? data.data : [];
+  } catch (error) {
+    console.error('Busqueda fallida:', error);
+    throw error;
+  }
 }
 ```
 
@@ -194,26 +216,39 @@ const useLogias = (filtros = {}) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    // AbortController para cancelar peticiones si el componente se desmonta
+    const controller = new AbortController();
+    const { signal } = controller;
+
     const fetchLogias = async () => {
       setLoading(true);
+      setError(null); // Reset error
+      
       try {
         const params = new URLSearchParams(filtros);
-        const response = await fetch(`/api/logias?${params}`);
+        const response = await fetch(`/api/logias?${params}`, { signal });
+        
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        
         const data = await response.json();
         
         if (data.success) {
           setLogias(data.data);
         } else {
-          setError(data.message);
+          setError(data.message || 'Error en respuesta de API');
         }
       } catch (err) {
-        setError(err.message);
+        if (err.name !== 'AbortError') {
+          setError(err.message);
+        }
       } finally {
-        setLoading(false);
+        if (!signal.aborted) setLoading(false);
       }
     };
 
     fetchLogias();
+
+    return () => controller.abort(); // Cleanup
   }, [JSON.stringify(filtros)]);
 
   return { logias, loading, error };
@@ -224,23 +259,47 @@ const useLogias = (filtros = {}) => {
 
 ```python
 import requests
+from typing import Dict, Any, Optional
 
 class LogiasAPI:
-    def __init__(self, base_url="http://localhost:3000/api"):
-        self.base_url = base_url
+    def __init__(self, base_url: str = "http://localhost:3000/api"):
+        self.base_url = base_url.rstrip('/')
     
-    def obtener_logias(self, **filtros):
-        response = requests.get(f"{self.base_url}/logias", params=filtros)
-        return response.json()
+    def obtener_logias(self, timeout: int = 10, **filtros) -> Dict[str, Any]:
+        """Obtiene logias con filtros y manejo de timeout."""
+        try:
+            response = requests.get(
+                f"{self.base_url}/logias", 
+                params=filtros,
+                timeout=timeout
+            )
+            response.raise_for_status() # Lanza error para 4xx/5xx
+            return response.json()
+        except requests.RequestException as e:
+            print(f"❌ Error de conexión: {e}")
+            return {"success": False, "data": [], "error": str(e)}
     
-    def obtener_estadisticas(self):
-        response = requests.get(f"{self.base_url}/estadisticas")
-        return response.json()
+    def obtener_estadisticas(self, timeout: int = 5) -> Dict[str, Any]:
+        try:
+            response = requests.get(
+                f"{self.base_url}/estadisticas",
+                timeout=timeout
+            )
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException:
+            return {}
 
 # Ejemplo de uso
-api = LogiasAPI()
-logias_caracas = api.obtener_logias(estado="Distrito Metropolitano")
-print(f"Logias en Caracas: {len(logias_caracas['data'])}")
+if __name__ == "__main__":
+    api = LogiasAPI()
+    resultado = api.obtener_logias(estado="Distrito Metropolitano")
+    
+    if resultado.get('success'):
+        logias = resultado.get('data', [])
+        print(f"✅ Logias encontradas en Caracas: {len(logias)}")
+    else:
+        print("⚠️ No se pudieron obtener los datos.")
 ```
 
 ---
