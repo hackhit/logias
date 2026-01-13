@@ -1,76 +1,75 @@
-# Código de Conducta del repositorio de Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴
+# Código de Conducta / Code of Conduct
 
-![Gran Logia de Venezuela](https://www.granlogiadevenezuela.com/master/masonic/assets/img/theme/logob_yellow.png)
-
-## Nuestro Compromiso
-
-Nosotros, como comunidad de colaboradores y participantes en el repositorio **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"**, estamos comprometidos a crear y mantener un ambiente acogedor, respetuoso y seguro. Creemos que un entorno abierto y respetuoso es esencial para el éxito y crecimiento del proyecto.
-
-Este **Código de Conducta** establece las expectativas para todos los participantes, incluyendo colaboradores, mantenedores y usuarios, con el fin de garantizar una interacción positiva.
-
-
-## Nuestros Principios
-
-Como miembros de la comunidad, nos comprometemos a ser:
-
-- **Respetuosos**: Nos tratamos unos a otros con respeto, independientemente de nuestras diferencias. Las discusiones y desacuerdos son parte del proceso creativo, pero siempre deben manejarse de manera civilizada y constructiva.
-  
-- **Colaborativos**: Fomentamos la cooperación y la construcción colectiva del conocimiento. Valorar las contribuciones de otros y proporcionar un espacio para el aprendizaje mutuo es esencial para este proyecto.
- 
-- **Seguros**: Nos comprometemos a mantener un entorno libre pensamiento, apegados a nuestros valores y nuestra augusta orden.
-
-## Comportamiento Aceptable
-
-A los participantes del repositorio se les pide que sigan estos lineamientos:
-
-- **Tratar a todos con cortesía y respeto**: La crítica constructiva y las discusiones son bienvenidas, pero deben expresarse de forma respetuosa y objetiva.
-  
-- **Evitar lenguaje discriminatorio**: Se prohíben comentarios, chistes o imágenes que denigren a una persona o grupo por su raza, género, identidad sexual, religión, origen étnico, orientación política o cualquier otra característica.
-  
-- **Ser receptivo a las críticas**: Aceptar y aprender de las críticas es fundamental para el crecimiento personal y profesional. Siempre busca mejorar en base a los comentarios constructivos de la comunidad.
-  
-- **Promover la integridad en la colaboración**: Fomentar un ambiente donde todos se sientan cómodos para compartir ideas y colaborar de manera equitativa.
-
-
-## Comportamiento Inaceptable
-
-El siguiente comportamiento es considerado inaceptable en nuestra comunidad:
-
-- **Acoso**: Cualquier forma de acoso, incluyendo pero no limitándose a acoso sexual, discriminación racial, amenazas o intimidación.
-  
-- **Lenguaje ofensivo o despectivo**: Insultos, burlas o comentarios que atenten contra la dignidad de cualquier miembro de la comunidad.
-  
-- **Explotación**: Cualquier intento de explotar a otro miembro para beneficio personal o de grupo sin su consentimiento.
-
-
-## Consecuencias de Violaciones al Código de Conducta
-
-Cualquier comportamiento que infrinja este Código de Conducta será tratado con seriedad. Dependiendo de la gravedad del comportamiento, las acciones pueden incluir:
-
-1. **Advertencia**: Una llamada de atención formal sobre la violación del código.
-2. **Expulsión Temporal**: Suspensión temporal de las contribuciones al repositorio, con la oportunidad de remediar la situación.
-3. **Expulsión Permanente**: En casos de violaciones graves o continuas, el miembro infractor será expulsado permanentemente de la comunidad y se eliminarán sus contribuciones.
-
-Las decisiones serán tomadas de manera justa y se buscará siempre el consenso dentro del equipo de desarrolladores y colaboradores.
-
-## Cómo Informar un Incidente
-
-Si eres testigo o víctima de una violación de este Código de Conducta, por favor informa lo sucedido de manera confidencial a los mantenedores del repositorio. Puedes hacerlo enviando un mensaje directo a los responsables del proyecto a través del siguiente canal:
-
-- **Correo electrónico**: [83knmujyb@mozmail.com](mailto:83knmujyb@mozmail.com)
-
-
-Nos comprometemos a investigar todos los informes de violaciones y a tomar las acciones necesarias de manera oportuna.
-
-
-## Implementación y Cumplimiento
-
-Este Código de Conducta es de cumplimiento obligatorio para todos los miembros de la comunidad. La comunidad de **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"** se esfuerza por mantener un entorno positivo, y por ello, la cooperación de todos es crucial.
-
-Al participar en este proyecto, aceptas cumplir con este código de conducta, promoviendo un ambiente de trabajo seguro y respetuoso para todos.
+[![Gran Logia de Venezuela](https://www.granlogiadevenezuela.com/master/masonic/assets/img/theme/logob_yellow.png)](https://www.granlogiadevenezuela.com)
 
 ---
 
-**¡Gracias por contribuir a nuestro proyecto!**
+## 🇪🇸 Versión en Español
 
-![Gran Logia de Venezuela](https://granlogiadevenezuela.com/master/assets/img/theme/samfraternal.jpg)
+### Nuestro Compromiso
+
+Como miembros, colaboradores y líderes del repositorio **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"**, nos comprometemos a hacer de la participación en este proyecto una experiencia libre de acoso para todos, independientemente de la edad, dimensión corporal, discapacidad visible o invisible, etnicidad, características sexuales, identidad y expresión de género, nivel de experiencia, educación, estatus socioeconómico, nacionalidad, apariencia personal, raza, religión o identidad u orientación sexual.
+
+Nos comprometemos a actuar e interactuar de maneras que contribuyan a una comunidad abierta, acogedora, diversa, inclusiva y saludable.
+
+### Nuestros Estándares
+
+Ejemplos de comportamiento que contribuyen a crear un ambiente positivo para nuestra comunidad:
+*   Demostrar empatía y amabilidad ante otras personas.
+*   Respetar las opiniones, puntos de vista y experiencias diferentes.
+*   Dar y aceptar adecuadamente retroalimentación constructiva.
+*   Aceptar la responsabilidad y disculparse ante quienes se vean afectados por nuestros errores, y aprender de la experiencia.
+*   Centrarse en lo que es mejor no sólo para nosotros como individuos, sino para la comunidad en general.
+
+Ejemplos de comportamiento inaceptable:
+*   El uso de lenguaje o imágenes sexualizadas, y aproximaciones o atenciones sexuales de cualquier tipo.
+*   Comentarios despectivos (trolling), insultantes o derogatorios, y ataques personales o políticos.
+*   El acoso en público o privado.
+*   Publicar información privada de otras personas, tales como direcciones físicas o electrónicas, sin su permiso explícito.
+*   Otras conductas que puedan ser razonablemente consideradas como inapropiadas en un entorno profesional.
+
+### Cumplimiento y Reporte
+
+Los responsables del proyecto son responsables de aclarar y hacer cumplir nuestros estándares de comportamiento aceptable y tomarán acciones correctivas y justas en respuesta a cualquier comportamiento que consideren inapropiado, amenazante, ofensivo o dañino.
+
+Toda instancia de comportamiento abusivo, acosador o inaceptable debe ser reportada a los líderes del proyecto a través de [83knmujyb@mozmail.com](mailto:83knmujyb@mozmail.com). Todas las quejas serán revisadas e investigadas puntualmente y de manera justa.
+
+---
+
+## 🇺🇸 English Version
+
+### Our Pledge
+
+We as members, contributors, and leaders of the **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"** repository pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+
+### Our Standards
+
+Examples of behavior that contributes to a positive environment for our community include:
+*   Demonstrating empathy and kindness toward other people.
+*   Being respectful of differing opinions, viewpoints, and experiences.
+*   Giving and gracefully accepting constructive feedback.
+*   Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience.
+*   Focusing on what is best not just for us as individuals, but for the overall community.
+
+Examples of unacceptable behavior include:
+*   The use of sexualized language or imagery, and sexual attention or advances of any kind.
+*   Trolling, insulting or derogatory comments, and personal or political attacks.
+*   Public or private harassment.
+*   Publishing others' private information, such as a physical or email address, without their explicit permission.
+*   Other conduct which could reasonably be considered inappropriate in a professional setting.
+
+### Enforcement
+
+Project leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project leaders responsible for enforcement at [83knmujyb@mozmail.com](mailto:83knmujyb@mozmail.com). All complaints will be reviewed and investigated promptly and fairly.
+
+---
+
+<div align="center">
+  <sub>Based on the Contributor Covenant, version 2.1</sub>
+  <br>
+  <img src="https://granlogiadevenezuela.com/master/assets/img/theme/samfraternal.jpg" alt="Fraternidad" width="100%">
+</div>
