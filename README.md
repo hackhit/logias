@@ -414,6 +414,7 @@ Este proyecto está bajo la [Licencia MIT](./LICENSE.md).
 
 ### Autor Principal
 - **[@hackhit](https://github.com/hackhit)** - Desarrollo y mantenimiento
+- **[@AnGuzC74](https://github.com/AnGuzC74)** - Desarrollador y colaborador
 
 ### Reconocimientos
 - 🏛️ **Gran Logia de la República de Venezuela** - Información histórica
