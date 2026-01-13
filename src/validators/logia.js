@@ -46,6 +46,15 @@ const logiaSchema = {
       type: 'integer',
       minimum: 1,
     },
+    ubicacion_geografica: {
+      type: ['object', 'null'],
+      properties: {
+        latitud: { type: 'number', minimum: -90, maximum: 90 },
+        longitud: { type: 'number', minimum: -180, maximum: 180 },
+      },
+      required: ['latitud', 'longitud'],
+      additionalProperties: false,
+    },
   },
   required: ['nombre_logia', 'numero', 'oriente', 'estado', 'contador'],
   additionalProperties: false,
