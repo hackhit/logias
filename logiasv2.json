@@ -13,7 +13,7 @@
       "geolocalizacion",
       "estado",
       "fecha_fundacion",
-      "fecha_instañacion",
+      "fecha_instalacion",
       "version"
     ],
     "properties": {
@@ -29,7 +29,7 @@
         "minLength": 5,
         "maxLength": 150,
         "pattern": "^[A-ZÁÉÍÓÚ][a-záéíóúüñ]+(\\s[A-ZÁÉÍÓÚ][a-záéíóúüñ]+)*$",
-        "example": "Gran Logia del Pacífico Sur"
+        "example": "Gran Logia de Venezuela"
       },
       "numero": {
         "type": "integer",
