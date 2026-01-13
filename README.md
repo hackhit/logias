@@ -172,11 +172,11 @@ async function obtenerLogias() {
       throw new Error(data.message || 'Error desconocido en API');
     }
 
-    console.info(`✅ Logias recuperadas: ${data.meta.total}`);
+    console.info(`Logias recuperadas: ${data.meta.total}`);
     return data.data;
 
   } catch (error) {
-    console.error('❌ Error crítico:', error.message);
+    console.error('Error crítico:', error.message);
     return []; // Fallback seguro
   }
 }
@@ -445,6 +445,6 @@ Si te ha sido útil:
 
 ### 🔹 *"La verdad os hará libres"* 🔹
 
-**Preservando más de 200 años de historia masónica venezolana para las futuras generaciones**
+**Preservando más de 201 años de historia masónica venezolana para las futuras generaciones**
 
 </div>
