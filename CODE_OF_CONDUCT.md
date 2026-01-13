@@ -8,9 +8,9 @@
 
 ### Nuestro Compromiso
 
-Como miembros, colaboradores y líderes del repositorio **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"**, nos comprometemos a hacer de la participación en este proyecto una experiencia libre de acoso para todos, independientemente de la edad, dimensión corporal, discapacidad visible o invisible, etnicidad, características sexuales, identidad y expresión de género, nivel de experiencia, educación, estatus socioeconómico, nacionalidad, apariencia personal, raza, religión o identidad u orientación sexual.
+Como miembros, colaboradores y líderes del repositorio **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"**, nos comprometemos a hacer de la participación en este proyecto una experiencia libre, nivel de experiencia, educación, estatus socioeconómico, nacionalidad, apariencia personal, raza, religión.
 
-Nos comprometemos a actuar e interactuar de maneras que contribuyan a una comunidad abierta, acogedora, diversa, inclusiva y saludable.
+Nos comprometemos a actuar e interactuar de maneras que contribuyan a una comunidad de desarrolladores y masones de las logias regulares de Venezuela y toda la orbe.
 
 ### Nuestros Estándares
 
