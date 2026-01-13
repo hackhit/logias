@@ -8,31 +8,34 @@
 
 ### Nuestro Compromiso
 
-Como miembros, colaboradores y líderes del repositorio **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"**, nos comprometemos a hacer de la participación en este proyecto una experiencia libre, nivel de experiencia, educación, estatus socioeconómico, nacionalidad, apariencia personal, raza, religión.
+Como miembros, colaboradores y líderes del repositorio **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"**, nos comprometemos a hacer de la participación en este proyecto una experiencia libre de acoso para todos, independientemente del nivel de experiencia, educación, estatus socioeconómico, nacionalidad, apariencia personal, raza, religión, identidad u orientación sexual.
 
 Nos comprometemos a actuar e interactuar de maneras que contribuyan a una comunidad de desarrolladores y masones de las logias regulares de Venezuela y toda la orbe.
 
 ### Nuestros Estándares
 
-Ejemplos de comportamiento que contribuyen a crear un ambiente positivo para nuestra comunidad:
-*   Demostrar empatía y amabilidad ante otras personas.
-*   Respetar las opiniones, puntos de vista y experiencias diferentes.
-*   Dar y aceptar adecuadamente retroalimentación constructiva.
-*   Aceptar la responsabilidad y disculparse ante quienes se vean afectados por nuestros errores, y aprender de la experiencia.
-*   Centrarse en lo que es mejor no sólo para nosotros como individuos, sino para la comunidad en general.
+Ejemplos de comportamiento que contribuyen a crear un ambiente positivo:
+*   **Armonía y Respeto**: Demostrar empatía, amabilidad y tolerancia ante otras personas.
+*   **Diálogo Constructivo**: Respetar las opiniones y experiencias diferentes, buscando siempre el consenso.
+*   **Retroalimentación Profesional**: Dar y aceptar críticas de manera objetiva para la mejora continua del código y la documentación.
+*   **Responsabilidad**: Aceptar nuestros errores, disculparnos y aprender de la experiencia.
+*   **Bien Común**: Centrarse en lo que es mejor para la comunidad y la preservación digital de la historia.
 
 Ejemplos de comportamiento inaceptable:
-*   El uso de lenguaje o imágenes sexualizadas, y aproximaciones o atenciones sexuales de cualquier tipo.
-*   Comentarios despectivos (trolling), insultantes o derogatorios, y ataques personales o políticos.
-*   El acoso en público o privado.
-*   Publicar información privada de otras personas, tales como direcciones físicas o electrónicas, sin su permiso explícito.
-*   Otras conductas que puedan ser razonablemente consideradas como inapropiadas en un entorno profesional.
+*   Uso de lenguaje o imágenes sexualizadas.
+*   Comentarios despectivos (trolling), insultos o ataques personales/políticos.
+*   Acoso público o privado.
+*   Publicar información privada de terceros sin su consentimiento explícito (doxing).
+*   Conductas que violen los principios de confidencialidad y ética de la orden.
+
+### Alcance
+
+Este código de conducta aplica tanto a espacios del proyecto (repositorio, issues, pull requests) como a espacios públicos donde un individuo esté representando al proyecto o a su comunidad.
 
 ### Cumplimiento y Reporte
 
-Los responsables del proyecto son responsables de aclarar y hacer cumplir nuestros estándares de comportamiento aceptable y tomarán acciones correctivas y justas en respuesta a cualquier comportamiento que consideren inapropiado, amenazante, ofensivo o dañino.
-
-Toda instancia de comportamiento abusivo, acosador o inaceptable debe ser reportada a los líderes del proyecto a través de [83knmujyb@mozmail.com](mailto:83knmujyb@mozmail.com). Todas las quejas serán revisadas e investigadas puntualmente y de manera justa.
+Los responsables del proyecto tienen el deber de aclarar y hacer cumplir nuestros estándares de comportamiento.
+Toda instancia de comportamiento inaceptable debe ser reportada a través de [83knmujyb@mozmail.com](mailto:83knmujyb@mozmail.com). Todas las quejas serán revisadas e investigadas puntualmente, manteniendo la confidencialidad necesaria.
 
 ---
 
@@ -40,31 +43,34 @@ Toda instancia de comportamiento abusivo, acosador o inaceptable debe ser report
 
 ### Our Pledge
 
-We as members, contributors, and leaders of the **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"** repository pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+As members, contributors, and leaders of the **"Logias Regulares Afiliadas a la M∴R∴G∴L∴R∴V∴"** repository, we pledge to make participation in this project a harassment-free experience for everyone, regardless of level of experience, education, socio-economic status, nationality, personal appearance, race, religion, sexual identity, or orientation.
 
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+We pledge to act and interact in ways that contribute to a community of developers and Masons of the regular lodges of Venezuela and the entire globe.
 
 ### Our Standards
 
-Examples of behavior that contributes to a positive environment for our community include:
-*   Demonstrating empathy and kindness toward other people.
-*   Being respectful of differing opinions, viewpoints, and experiences.
-*   Giving and gracefully accepting constructive feedback.
-*   Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience.
-*   Focusing on what is best not just for us as individuals, but for the overall community.
+Examples of behavior that contributes to a positive environment:
+*   **Harmony and Respect**: Demonstrating empathy, kindness, and tolerance toward others.
+*   **Constructive Dialogue**: Respecting differing opinions and experiences, always seeking consensus.
+*   **Professional Feedback**: Giving and accepting criticism objectively for the continuous improvement of code and documentation.
+*   **Responsibility**: Accepting our mistakes, apologizing, and learning from the experience.
+*   **Common Good**: Focusing on what is best for the community and digital historical preservation.
 
-Examples of unacceptable behavior include:
-*   The use of sexualized language or imagery, and sexual attention or advances of any kind.
-*   Trolling, insulting or derogatory comments, and personal or political attacks.
+Examples of unacceptable behavior:
+*   Use of sexualized language or imagery.
+*   Trolling, insulting or derogatory comments, and personal/political attacks.
 *   Public or private harassment.
-*   Publishing others' private information, such as a physical or email address, without their explicit permission.
-*   Other conduct which could reasonably be considered inappropriate in a professional setting.
+*   Publishing others' private information without explicit consent (doxing).
+*   Conduct that violates the principles of confidentiality and ethics of the order.
+
+### Scope
+
+This code of conduct applies to both project spaces (repository, issues, pull requests) and public spaces where an individual is representing the project or its community.
 
 ### Enforcement
 
-Project leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project leaders responsible for enforcement at [83knmujyb@mozmail.com](mailto:83knmujyb@mozmail.com). All complaints will be reviewed and investigated promptly and fairly.
+Project leaders are responsible for clarifying and enforcing our standards of acceptable behavior.
+Instances of unacceptable behavior may be reported at [83knmujyb@mozmail.com](mailto:83knmujyb@mozmail.com). All complaints will be reviewed and investigated promptly, maintaining necessary confidentiality.
 
 ---
 
