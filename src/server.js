@@ -9,6 +9,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const compression = require('compression');
 const path = require('path');
+const rateLimit = require('express-rate-limit');
 
 // Importar rutas
 const logiasRoutes = require('./api/routes/logias');
@@ -16,6 +17,12 @@ const estadisticasRoutes = require('./api/routes/estadisticas');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Limitador de solicitudes para rutas que acceden al sistema de archivos
+const docsLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutos
+  max: 100, // máximo 100 solicitudes por ventana
+});
 
 // Middlewares de seguridad y optimización
 app.use(helmet());
@@ -50,7 +57,7 @@ app.get('/', (req, res) => {
 });
 
 // Ruta de documentación
-app.get('/docs', (req, res) => {
+app.get('/docs', docsLimiter, (req, res) => {
   res.sendFile(path.join(__dirname, '../public/docs.html'));
 });
 
