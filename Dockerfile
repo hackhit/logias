@@ -1,5 +1,5 @@
 # Usar imagen oficial de Node.js
-FROM node:18-alpine
+FROM node:25.3.0-alpine
 
 # Instalar curl para health checks
 RUN apk add --no-cache curl
