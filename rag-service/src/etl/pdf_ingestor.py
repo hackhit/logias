@@ -3,14 +3,8 @@ import hashlib
 import asyncio
 import pdfplumber
 import asyncpg
+from core.settings import settings
 from etl.chunker import semantic_chunking
-
-# Configuración de base de datos
-DB_HOST = os.getenv("DB_HOST", "localhost")
-DB_PORT = os.getenv("DB_PORT", "5432")
-DB_USER = os.getenv("DB_USER", "rag_user")
-DB_PASSWORD = os.getenv("DB_PASSWORD", "rag_secure_pass_2026")
-DB_NAME = os.getenv("DB_NAME", "rag_db")
 
 # Importación diferida del motor de embeddings para evitar import loops
 def get_embeddings_engine():
@@ -47,12 +41,13 @@ async def ingest_pdfs_from_dir(directory, nivel_acceso):
     # Inicializar embeddings
     emb_engine = get_embeddings_engine()
 
+    # Uso estricto de settings de producción sin passwords por defecto hardcodeados
     conn = await asyncpg.connect(
-        host=DB_HOST,
-        port=int(DB_PORT),
-        user=DB_USER,
-        password=DB_PASSWORD,
-        database=DB_NAME
+        host=settings.DB_HOST,
+        port=int(settings.DB_PORT),
+        user=settings.DB_USER,
+        password=settings.DB_PASSWORD,
+        database=settings.DB_NAME
     )
 
     try:
@@ -72,13 +67,9 @@ async def ingest_pdfs_from_dir(directory, nivel_acceso):
 
             async with conn.transaction():
                 for chunk in chunks:
-                    # Idempotencia: Usar Hash SHA-256 del contenido para evitar duplicación de chunks
                     chunk_hash = hashlib.sha256(chunk.encode("utf-8")).hexdigest()
-
-                    # Generar embedding del chunk
                     embedding = emb_engine.get_embedding(chunk)
 
-                    # Insertar en base de datos de manera idempotente (ON CONFLICT DO NOTHING)
                     await conn.execute(
                         """
                         INSERT INTO documentos_vectoriales (chunk_hash, texto, embedding, nivel_acceso, documento_origen)
@@ -100,7 +91,6 @@ async def ingest_pdfs_from_dir(directory, nivel_acceso):
         await conn.close()
 
 async def run_full_pdf_ingest():
-    # Rutas por defecto
     public_dir = "rag-service/data/pdfs/publico"
     private_dir = "rag-service/data/pdfs/miembro"
 

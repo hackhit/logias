@@ -90,6 +90,23 @@ class MockConnection:
         if "UPDATE AUDITORIA" in query_upper or "DELETE FROM AUDITORIA" in query_upper:
             raise Exception("La tabla de auditoría es inmutable. No se permiten actualizaciones o borrados.")
 
+        # Unificar procesamiento de set_config idéntico al modo real PostgreSQL
+        if "SET_CONFIG" in query_upper:
+            # La llamada es: SELECT set_config('app.current_user_role', $1, true), set_config('app.current_user_id', $2, true)
+            # o bien set_config con fecha_referencia_mora
+            # En el primer caso, args tiene (role, uid). El primero es bindeado a app.current_user_role, el segundo a app.current_user_id
+            if len(args) == 2:
+                role, uid = args[0], args[1]
+                self.client_vars[task_id]["app.current_user_role"] = str(role)
+                self.client_vars[task_id]["app.current_user_id"] = str(uid)
+                self.session_vars["app.current_user_role"] = str(role)
+                self.session_vars["app.current_user_id"] = str(uid)
+            elif len(args) == 1:
+                fecha_ref = args[0]
+                self.client_vars[task_id]["app.fecha_referencia_mora"] = str(fecha_ref)
+                self.session_vars["app.fecha_referencia_mora"] = str(fecha_ref)
+            return "SELECT 1"
+
         if "SET_CONFIG" in query_upper or "SET " in query_upper:
             if len(args) >= 2:
                 self.client_vars[task_id][args[0]] = str(args[1])

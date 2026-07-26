@@ -60,6 +60,7 @@ EXECUTE FUNCTION prevent_update_or_delete_audit();
 -- Configuración de la Regla de Mora (3 meses / 90 días)
 -- Función para calcular el estado_membresia de un miembro
 -- Soporta el uso de la variable de configuración 'app.fecha_referencia_mora' si se define.
+-- Marcada como STABLE para optimización de rendimiento según Prioridad 2.1
 CREATE OR REPLACE FUNCTION calcular_estado_membresia(p_cedula VARCHAR)
 RETURNS VARCHAR AS $$
 DECLARE
@@ -96,7 +97,7 @@ BEGIN
         RETURN 'activo';
     END IF;
 END;
-$$ LANGUAGE plpgsql;
+$$ LANGUAGE plpgsql STABLE;
 
 
 -- Vista de Miembros con su estado recalculado en tiempo real
@@ -112,21 +113,17 @@ SELECT
 FROM miembros m;
 
 
--- HABILITAR ROW LEVEL SECURITY (RLS)
+-- HABILITAR ROW LEVEL SECURITY (RLS) Y FORZAR RLS (FORCE RLS) OBLIGATORIAMENTE PARA SEGURIDAD DEL OWNER
 ALTER TABLE miembros ENABLE ROW LEVEL SECURITY;
-ALTER TABLE pagos ENABLE ROW LEVEL SECURITY;
-ALTER TABLE documentos_vectoriales ENABLE ROW LEVEL SECURITY;
+ALTER TABLE miembros FORCE ROW LEVEL SECURITY;
 
--- Nota: Para que la RLS sea verdaderamente robusta, se define una variable de sesión llamada 'app.current_user_role'
--- y otra 'app.current_user_id' por transacción utilizando SET LOCAL dentro de un bloque BEGIN/COMMIT.
--- Haremos un COALESCE con 'publico' por defecto si no está seteado.
+ALTER TABLE pagos ENABLE ROW LEVEL SECURITY;
+ALTER TABLE pagos FORCE ROW LEVEL SECURITY;
+
+ALTER TABLE documentos_vectoriales ENABLE ROW LEVEL SECURITY;
+ALTER TABLE documentos_vectoriales FORCE ROW LEVEL SECURITY;
 
 -- Política de RLS para 'documentos_vectoriales'
--- Jerarquía real de roles:
--- - público puede ver: 'publico'
--- - miembro (activo) puede ver: 'publico', 'miembro'
--- - miembro (entredicho) puede ver: 'publico' solamente (degradado por mora)
--- - admin puede ver: 'publico', 'miembro', 'admin'
 CREATE POLICY rls_documentos_policy ON documentos_vectoriales
 FOR SELECT
 USING (
@@ -164,3 +161,23 @@ USING (
     COALESCE(current_setting('app.current_user_role', true), 'publico') = 'admin'
     OR miembro_cedula = COALESCE(current_setting('app.current_user_id', true), '')
 );
+
+
+-- SEPARACIÓN DE ROLES DE BASE DE DATOS (Prioridad 0.2)
+-- Creamos el rol 'app_runtime' para uso en producción de la app (no es owner de las tablas)
+-- Nota: DO block para evitar fallos si el rol ya existe
+DO $$
+BEGIN
+    IF NOT EXISTS (SELECT FROM pg_catalog.pg_roles WHERE rolname = 'app_runtime') THEN
+        CREATE ROLE app_runtime WITH LOGIN PASSWORD 'app_runtime_secure_pass_2026';
+    END IF;
+END
+$$;
+
+-- Otorgar privilegios estrictos al rol de ejecución
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE miembros TO app_runtime;
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE pagos TO app_runtime;
+GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE documentos_vectoriales TO app_runtime;
+GRANT SELECT, INSERT ON TABLE auditoria TO app_runtime;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO app_runtime;
+GRANT SELECT ON vista_miembros TO app_runtime;

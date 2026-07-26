@@ -1,0 +1,61 @@
+name: RAG Service CI
+
+on:
+  push:
+    paths:
+      - 'rag-service/**'
+  pull_request:
+    paths:
+      - 'rag-service/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: pgvector/pgvector:0.7.0-pg16
+        env:
+          POSTGRES_USER: rag_user
+          POSTGRES_PASSWORD: test_secure_db_pass_2026
+          POSTGRES_DB: rag_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install uv and dependencies
+      run: |
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
+        uv pip install --system -r rag-service/src/pyproject.toml
+        pip install pytest pytest-cov pytest-asyncio email-validator
+
+    - name: Initialize PostgreSQL database schema
+      run: |
+        docker run --net=host -v ${{ github.workspace }}/rag-service/infra/postgres/init.sql:/init.sql postgres:16-alpine psql postgresql://rag_user:test_secure_db_pass_2026@localhost:5432/rag_db -f /init.sql
+
+    - name: Run unit, integration and security tests
+      env:
+        DB_HOST: localhost
+        DB_PORT: 5432
+        DB_USER: app_runtime
+        DB_PASSWORD: app_runtime_secure_pass_2026
+        DB_NAME: rag_db
+        JWT_SECRET: test_jwt_secret_key_minimum_32_characters_long_2026
+        MOCK_LLM: 'true'
+        FORCE_MOCK_DB: 'false'
+      run: |
+        PYTHONPATH=rag-service/src python3 -m pytest --cov=rag-service/src --cov-report=term-missing rag-service/tests/unit/ rag-service/tests/integration/ rag-service/tests/security/ rag-service/tests/regression/ -v

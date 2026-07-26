@@ -6,6 +6,14 @@ Todo el desarrollo de esta característica vive de forma aislada en la rama `fea
 
 ---
 
+## ⚠️ Rotación de secretos post-remediación
+
+Tras la auditoría de seguridad y de acuerdo con el hallazgo de GitGuardian, se han **eliminado de forma estricta todos los valores por defecto o contraseñas hardcodeadas en el código fuente de la aplicación** (como `DB_PASSWORD` o `JWT_SECRET`).
+
+Cualquier contraseña o clave que haya coincidido con los placeholders originales en los primeros commits del desarrollo **debe considerarse totalmente comprometida y rotarse obligatoriamente** antes de realizar el despliegue en entornos de producción reales. El microservicio ahora valida que todos los secretos estén presentes en el entorno en su arranque y fallará con un mensaje claro si alguno no está configurado.
+
+---
+
 ## 🚀 Arquitectura y Decisiones de Seguridad
 
 El diseño del microservicio se basa en la robustez, el control estricto de acceso a los datos y la inmutabilidad de la auditoría:
@@ -13,11 +21,13 @@ El diseño del microservicio se basa en la robustez, el control estricto de acce
 1. **Aislamiento de Datos por Row-Level Security (RLS) de PostgreSQL**:
    - Esta es la frontera real de seguridad. Las consultas de vectores y datos privados se aíslan utilizando RLS.
    - En cada petición, dentro de una transacción explícita, se ejecuta `SET LOCAL` para establecer el rol (`app.current_user_role`) y la cédula del usuario (`app.current_user_id`). Esto evita cualquier riesgo de fuga de contexto en conexiones concurrentes del pool de `asyncpg`.
+   - Se ha implementado `FORCE ROW LEVEL SECURITY` obligatoriamente en todas las tablas para garantizar que incluso el rol owner esté sujeto a las políticas de seguridad.
+   - Se ha diseñado una **separación real de roles de base de datos** (Prioridad 0.2): el rol `app_runtime` es el utilizado en ejecución de la app (no es propietario de ninguna tabla), limitando sus privilegios estrictamente mediante GRANTs.
    - Se implementa una jerarquía real de roles:
      - `publico` < `miembro` < `admin`.
 
 2. **Cálculo Determinista de Mora (Regla de los 3 meses / 90 días)**:
-   - El estado de membresía **nunca es responsabilidad de la IA ni de un prompt**. Se calcula de forma matemática y determinista en la base de datos a nivel de vista/función:
+   - El estado de membresía **nunca es responsabilidad de la IA ni de un prompt**. Se calcula de forma matemática y determinista en la base de datos a nivel de vista/función (marcada como `STABLE` para máximo rendimiento):
      - `CURRENT_DATE - fecha_ultimo_pago > 90` -> `estado_membresia = 'entredicho'`.
    - Si un miembro se encuentra en estado `entredicho`, queda degradado automáticamente al nivel de acceso `publico` y pierde todo el acceso a secciones privadas/documentos de nivel `miembro`.
    - **Parámetro de Referencia para Demos**: Soporta la variable de entorno `FECHA_REFERENCIA_MORA` (formato `YYYY-MM-DD`). Si está activa, se utiliza para simular consistencia con fechas fijas del dataset sintético. Genera un Warning visible en los logs advirtiendo que no debe utilizarse en producción.
@@ -62,6 +72,7 @@ rag-service/
 │   │   ├── middlewares.py      # Rate limiter Token Bucket + Auditoría con await explícito
 │   │   └── routers.py          # Endpoints REST de autenticación y RAG
 │   ├── core/
+│   │   ├── settings.py         # Centralización de lectura y validación de variables de entorno (Prioridad 1.1)
 │   │   ├── security.py         # Filtro heurístico anti-inyecciones
 │   │   ├── router.py           # Enrutador determinista de dos capas (Seguridad + Intención)
 │   │   ├── output_validator.py # Validador determinista de salida contra alucinaciones
@@ -79,9 +90,12 @@ rag-service/
 │       ├── synthetic_data.py   # Generador de dataset sintético de 550 miembros
 │       └── tabular_ingestor.py # Ingestor idempotente de CSV/Excel con Polars lazy
 ├── tests/                      # Suite de tests automatizados
-│   ├── test_rls_isolation.py   # Test estricto de aislamiento por RLS y mora
-│   ├── test_output_validator.py# Test del validador de salida contra alucinaciones
-│   └── test_rate_limiting.py   # Test de control de flujos con Token Bucket
+│   ├── conftest.py             # Fixture global asíncrona de sesión
+│   ├── unit/                   # Tests unitarios puros rápidos
+│   ├── integration/            # Tests de integración contra BD PostgreSQL/Mock
+│   ├── security/               # Pruebas e intentos deliberados de ataques
+│   ├── load/                   # Locustfile para pruebas de carga y concurrencia
+│   └── regression/             # Comparación contra snapshots baseline_responses.json
 └── presentation/
     └── streamlit_app.py        # Panel interactivo de demo para el cliente
 ```
@@ -144,7 +158,7 @@ Para la demo interactiva en Streamlit, el selector de roles realiza inicios de s
 
 ---
 
-## 🧪 Ejecución de Pruebas Automatizadas
+## 🧪 Execution of Automated Tests
 
 Para correr la suite de tests automatizados que aseguran la correctitud de todas las reglas críticas:
 
@@ -153,7 +167,7 @@ Para correr la suite de tests automatizados que aseguran la correctitud de todas
 uv pip install -r rag-service/src/pyproject.toml
 
 # Ejecutar las pruebas asíncronas con pytest
-PYTHONPATH=rag-service/src FORCE_MOCK_DB=true python3 -m pytest rag-service/tests/
+PYTHONPATH=rag-service/src FORCE_MOCK_DB=true DB_PASSWORD=test JWT_SECRET=test python3 -m pytest rag-service/tests/ -v
 ```
 
 Todas las pruebas se encuentran configuradas con un mock determinista para asegurar su reproducibilidad instantánea en cualquier entorno sin depender del hardware local.

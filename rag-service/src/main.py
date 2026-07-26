@@ -1,11 +1,16 @@
 import os
+import logging
 from litestar import Litestar, get
 from litestar.di import Provide
 from litestar.types import Scope
 
+from core.settings import settings
 from database.connection import init_db_pool, close_db_pool
 from api.routers import AuthController, ChatController
 from api.middlewares import RateLimitMiddleware
+
+# Configurar logger
+logger = logging.getLogger("rag-service")
 
 @get("/health")
 async def health_check() -> dict:
@@ -17,22 +22,20 @@ async def health_check() -> dict:
 async def check_production_warnings():
     """
     Verifica si se han habilitado variables de simulación de tiempo
-    y emite una advertencia visible en los logs.
+    y emite una advertencia visible de nivel WARNING en los logs de producción (Prioridad 1.2).
     """
-    fecha_ref = os.getenv("FECHA_REFERENCIA_MORA")
+    fecha_ref = settings.FECHA_REFERENCIA_MORA
     if fecha_ref:
+        logger.warning(
+            "⚠️  WARNING: FECHA_REFERENCIA_MORA está activa (%s) — este modo NUNCA debe usarse en producción.",
+            fecha_ref
+        )
         print("*" * 80)
         print(f"⚠️  WARNING: FECHA_REFERENCIA_MORA está activa ({fecha_ref}) — este modo NUNCA debe usarse en producción.")
         print("*" * 80)
 
-# Cargar límites de rate limiting configurables
-capacity = int(os.getenv("RATE_LIMIT_CAPACITY", "20"))
-refill_rate = int(os.getenv("RATE_LIMIT_REFILL_RATE", "5"))
-
-# Litestar espera que las factorías de middleware asíncronos o middlewares sigan una interfaz compatible.
-# Para evitar problemas con la firma de lambda con kwargs, creamos una fábrica explícita.
 def make_rate_limit_middleware(app):
-    return RateLimitMiddleware(app, capacity=capacity, refill_rate=refill_rate)
+    return RateLimitMiddleware(app, capacity=settings.RATE_LIMIT_CAPACITY, refill_rate=settings.RATE_LIMIT_REFILL_RATE)
 
 app = Litestar(
     route_handlers=[health_check, AuthController, ChatController],
