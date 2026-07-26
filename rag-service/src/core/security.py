@@ -8,12 +8,14 @@ def heuristic_injection_filter(query: str) -> bool:
     """
     # Patrones comunes de inyección o jailbreak
     patterns = [
-        r"(?i)ignore\s+(previous\s+)?instructions",
+        r"(?i)ignore",
         r"(?i)system\s+prompt",
         r"(?i)acting\s+as\s+a",
         r"(?i)you\s+are\s+now\s+an\s+admin",
         r"(?i)como\s+un\s+administrador",
-        r"(?i)ignora\s+las\s+instrucciones",
+        r"(?i)ignora",
+        r"(?i)ignorar",
+        r"(?i)actuar\s+como",
         r"(?i)mostrar\s+la\s+clave",
         r"(?i)reveal\s+your\s+instructions",
         r"(?i)bypass\s+restrictions",

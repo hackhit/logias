@@ -29,12 +29,14 @@ async def check_production_warnings():
 capacity = int(os.getenv("RATE_LIMIT_CAPACITY", "20"))
 refill_rate = int(os.getenv("RATE_LIMIT_REFILL_RATE", "5"))
 
+# Litestar espera que las factorías de middleware asíncronos o middlewares sigan una interfaz compatible.
+# Para evitar problemas con la firma de lambda con kwargs, creamos una fábrica explícita.
+def make_rate_limit_middleware(app):
+    return RateLimitMiddleware(app, capacity=capacity, refill_rate=refill_rate)
+
 app = Litestar(
     route_handlers=[health_check, AuthController, ChatController],
     on_startup=[init_db_pool, check_production_warnings],
     on_shutdown=[close_db_pool],
-    middleware=[
-        # Aplicar el middleware de control de flujo Token Bucket
-        lambda app_asgi: RateLimitMiddleware(app_asgi, capacity=capacity, refill_rate=refill_rate)
-    ]
+    middleware=[make_rate_limit_middleware]
 )
