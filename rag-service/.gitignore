@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+var/
+.env
+db_data/
+*.gguf
+*.onnx
+node_modules/
+dist/
+build/
+.pytest_cache/

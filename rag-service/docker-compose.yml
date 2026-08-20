@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: pgvector/pgvector:0.7.0-pg16
+    container_name: rag_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: rag_user
+      POSTGRES_PASSWORD: rag_secure_pass_2026
+      POSTGRES_DB: rag_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - rag_postgres_data:/var/lib/postgresql/data
+      - ./infra/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./infra/postgres/postgresql.conf:/etc/postgresql/postgresql.conf
+    command: ["postgres", "-c", "config_file=/etc/postgresql/postgresql.conf"]
+    networks:
+      - rag_network
+
+  litestar-api:
+    build:
+      context: ./src
+      dockerfile: ../Dockerfile
+    container_name: rag_api
+    restart: always
+    environment:
+      - PORT=8000
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USER=rag_user
+      - DB_PASSWORD=rag_secure_pass_2026
+      - DB_NAME=rag_db
+      - JWT_SECRET=super_secure_rag_jwt_secret_key_2026_long_and_complex_key
+      - MOCK_LLM=true
+      - FECHA_REFERENCIA_MORA=2026-03-01
+      - RATE_LIMIT_CAPACITY=20
+      - RATE_LIMIT_REFILL_RATE=5
+    depends_on:
+      - postgres
+    networks:
+      - rag_network
+
+  streamlit-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: rag_streamlit
+    restart: always
+    environment:
+      - API_URL=http://nginx:8080
+      - MOCK_LLM=true
+    ports:
+      - "8501:8501"
+    depends_on:
+      - litestar-api
+    networks:
+      - rag_network
+
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: rag_nginx
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./infra/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - litestar-api
+    networks:
+      - rag_network
+
+volumes:
+  rag_postgres_data:
+
+networks:
+  rag_network:
+    driver: bridge

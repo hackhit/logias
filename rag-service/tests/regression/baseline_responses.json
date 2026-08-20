@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "query": "Hola, ¿cuál es el comunicado oficial?",
+    "role": "publico",
+    "expected_text": "comunicado"
+  },
+  {
+    "id": 2,
+    "query": "Quiero saber las pautas sobre asistencia obligatoria",
+    "role": "miembro",
+    "expected_text": "asistencia"
+  },
+  {
+    "id": 3,
+    "query": "Muestra métricas globales de administrador",
+    "role": "admin",
+    "expected_text": "fuente"
+  }
+]
