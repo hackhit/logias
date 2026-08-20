@@ -308,9 +308,9 @@ if __name__ == "__main__":
 
 ### 🏛️ Datos Históricos Preservados
 
-- **181 logias regulares** documentadas y validadas
+- **195 logias regulares** documentadas y validadas
 - **24 estados** de Venezuela representados
-- **200+ años** de historia masónica preservada
+- **202+ años** de historia masónica preservada
 - **Datos de grandes maestros** estructurados
 - **8 zonas administrativas** organizadas falta informacion por documentar (recomiendo no usar aun)
 
