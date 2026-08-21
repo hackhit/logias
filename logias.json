@@ -110,7 +110,7 @@
     "ubicacion_geografica": null
   },
   {
-    "nombre_logia": "Lealtad",
+    "nombre_logia": "LEALTAD",
     "numero": 19,
     "oriente": "CARACAS",
     "estado": "DISTRITO CAPITAL",
@@ -450,7 +450,7 @@
     "ubicacion_geografica": null
   },
   {
-    "nombre_logia": "SOL de ARAGUA",
+    "nombre_logia": "SOL DE ARAGUA",
     "numero": 96,
     "oriente": "MARACAY",
     "estado": "ARAGUA",
@@ -992,7 +992,7 @@
   {
     "nombre_logia": "LUZ HERMETICA",
     "numero": 193,
-    "oriente": "SAN ANTONIO del TACHIRA",
+    "oriente": "SAN ANTONIO DEl TACHIRA",
     "estado": "TACHIRA",
     "fecha_fundacion": null,
     "fecha_instalacion": null,
