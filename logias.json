@@ -50,7 +50,7 @@
     "ubicacion_geografica": null
   },
   {
-    "nombre_logia": "Regeneradores",
+    "nombre_logia": "REGENERADORES",
     "numero": 6,
     "oriente": "MARACAIBO",
     "estado": "ZULIA",
@@ -420,7 +420,7 @@
     "ubicacion_geografica": null
   },
   {
-    "nombre_logia": "BOLIVAR y Morillo",
+    "nombre_logia": "BOLIVAR Y MORILLO",
     "numero": 91,
     "oriente": "VALERA",
     "estado": "TRUJILLO",
@@ -452,7 +452,7 @@
   {
     "nombre_logia": "SOL de ARAGUA",
     "numero": 96,
-    "oriente": "Maracay",
+    "oriente": "MARACAY",
     "estado": "ARAGUA",
     "fecha_fundacion": "1937-10-31",
     "fecha_instalacion": "1938-03-20",
@@ -843,7 +843,7 @@
     "nombre_logia": "PIO GIL",
     "numero": 166,
     "oriente": "SAN CRISTOBAL",
-    "estado": "TÁCHIRA",
+    "estado": "TACHIRA",
     "fecha_fundacion": "1966-03-26",
     "fecha_instalacion": null,
     "contador": 85,
@@ -953,7 +953,7 @@
     "nombre_logia": "RESTAURADORES DEL HONOR",
     "numero": 184,
     "oriente": "SAN CRISTOBAL",
-    "estado": "TÁCHIRA",
+    "estado": "TACHIRA",
     "fecha_fundacion": "1979-08-11",
     "fecha_instalacion": "1979-08-11",
     "contador": 96,
@@ -1563,7 +1563,7 @@
     "nombre_logia": "KRESTOS SOPHIA",
     "numero": 256,
     "oriente": "SAN CRISTOBAL",
-    "estado": "TÁCHIRA",
+    "estado": "TACHIRA",
     "fecha_fundacion": "2009-05-30",
     "fecha_instalacion": "2009-10-17",
     "contador": 157,
@@ -1653,7 +1653,7 @@
     "nombre_logia": "JOSÉ ANTONIO PÁEZ",
     "numero": 265,
     "oriente": "SAN CRISTOBAL",
-    "estado": "TÁCHIRA",
+    "estado": "TACHIRA",
     "fecha_fundacion": "2019-05-25",
     "fecha_instalacion": "2019-05-25",
     "contador": 166,
